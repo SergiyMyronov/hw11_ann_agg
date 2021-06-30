@@ -64,3 +64,12 @@ class Command(BaseCommand):
         for idx, row in excel_data.iterrows():
             b1 = Book.objects.get(name=row['Title'])
             b1.authors.add(Author.objects.get(name=row['Author']))
+
+        st_all = Store.objects.all()
+        book_all = Book.objects.all()
+        len_st_all = len(st_all)
+        len_book_all = len(book_all)
+        n = len_book_all // len_st_all
+        for i in range(len_st_all):
+            for b in range(len_st_all*2):
+                st_all[i].books.add(book_all[random.randint(0, n-2)*len_st_all+b])
