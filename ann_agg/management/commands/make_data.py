@@ -65,8 +65,8 @@ class Command(BaseCommand):
             b1 = Book.objects.get(name=row['Title'])
             b1.authors.add(Author.objects.get(name=row['Author']))
 
-        st_all = Store.objects.all()
-        book_all = Book.objects.all()
+        st_all = list(Store.objects.all())
+        book_all = list(Book.objects.all())
         len_st_all = len(st_all)
         len_book_all = len(book_all)
         n = len_book_all // len_st_all
