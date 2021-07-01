@@ -1,10 +1,36 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-07-01T08:45:07.745Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1701",
+    "object_repr": "Particle and nuclear physics Store1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-07-01T09:07:44.594Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1704",
+    "object_repr": "Test Store",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$260000$G47sU4ZncEOyUHmUwx5DYs$aaix9kPhhxPCIqMnmiZi40XvalGQqCEWZXacX6vN93o=",
-    "last_login": "2021-06-28T09:09:40.112Z",
+    "last_login": "2021-07-01T06:57:54.588Z",
     "is_superuser": true,
     "username": "sergemk",
     "first_name": "",
@@ -99,6 +125,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "io6g0oc3xozddpj8li4lzwqe62y7gkhn",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP8lM4ryaJzAyM43VHYdkwJKpaadEP-OInWA9e50bzXivpVxb3kdZ1YXZdXplxFOz1y74AfW-6KnpW7rTLon-rBN3xbOr-vR_g0KttK3GOTMAESYjBjKcRJPwSUDgZ1EGjzYDA4SoRcWH2L2KIiJYYjOqs8X-vo4YA:1lyqe2:kEP1mnwLpkOcMREsEp-ZQq9WAFqnu4xurpSEWFflkRg",
+    "expire_date": "2021-07-15T06:57:54.658Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "mwypkaq4ppqh4zjyuo2hpx6mhqakq5tw",
   "fields": {
     "session_data": ".eJxVjLsOwjAMAP8lM4ryaJzAyM43VHYdkwJKpaadEP-OInWA9e50bzXivpVxb3kdZ1YXZdXplxFOz1y74AfW-6KnpW7rTLon-rBN3xbOr-vR_g0KttK3GOTMAESYjBjKcRJPwSUDgZ1EGjzYDA4SoRcWH2L2KIiJYYjOqs8X-vo4YA:1lxnGu:RGanncLWGT7c4OalRnMM90lQwyuiLuZkv-FdWEs9A2I",
@@ -107,4028 +141,3835 @@
 },
 {
   "model": "ann_agg.author",
-  "pk": 11094,
+  "pk": 11214,
   "fields": {
-    "name": "Williams, P R",
-    "age": 82
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11095,
-  "fields": {
-    "name": "Martin, K",
+    "name": "Junker, G",
     "age": 62
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11096,
+  "pk": 11215,
   "fields": {
-    "name": "Niazi, P S K",
-    "age": 53
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11097,
-  "fields": {
-    "name": "Lee, J",
-    "age": 45
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11098,
-  "fields": {
-    "name": "Impey, C",
-    "age": 82
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11099,
-  "fields": {
-    "name": "Damilakis, J",
-    "age": 42
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11100,
-  "fields": {
-    "name": "Ferreira, C",
-    "age": 62
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11101,
-  "fields": {
-    "name": "Levi, A F J",
-    "age": 47
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11102,
-  "fields": {
-    "name": "Wang, P J",
-    "age": 70
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11103,
-  "fields": {
-    "name": "Fujimoto, M",
-    "age": 84
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11104,
-  "fields": {
-    "name": "Mak, S T",
-    "age": 56
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11105,
-  "fields": {
-    "name": "Shukla, A K",
-    "age": 31
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11106,
-  "fields": {
-    "name": "Ydri, B",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11107,
-  "fields": {
-    "name": "Sabban, P D A",
-    "age": 81
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11108,
-  "fields": {
-    "name": "Smith, E",
-    "age": 85
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11109,
-  "fields": {
-    "name": "Grady, D",
-    "age": 53
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11110,
-  "fields": {
-    "name": "Satija, I I",
-    "age": 45
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11111,
-  "fields": {
-    "name": "Oks, E",
-    "age": 44
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11112,
-  "fields": {
-    "name": "Hockett, P",
-    "age": 51
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11113,
-  "fields": {
-    "name": "Miller Jr Jr, W",
-    "age": 33
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11114,
-  "fields": {
-    "name": "Swanson, M S",
-    "age": 79
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11115,
-  "fields": {
-    "name": "Ramesh, K",
-    "age": 46
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11116,
-  "fields": {
-    "name": "Webb, J R",
-    "age": 57
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11117,
-  "fields": {
-    "name": "Kotetes, P",
-    "age": 41
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11118,
-  "fields": {
-    "name": "Seigar, M S",
-    "age": 68
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11119,
-  "fields": {
-    "name": "Grabe, M",
-    "age": 50
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11120,
-  "fields": {
-    "name": "Singh, P R P",
-    "age": 64
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11121,
-  "fields": {
-    "name": "Stolojan, V",
-    "age": 69
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11122,
-  "fields": {
-    "name": "Lambert, P C J",
-    "age": 53
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11123,
-  "fields": {
-    "name": "Thakkar, A J",
-    "age": 73
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11124,
-  "fields": {
-    "name": "Sinha, G R",
-    "age": 33
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11125,
-  "fields": {
-    "name": "Harkness-Brennan, L",
-    "age": 78
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11126,
-  "fields": {
-    "name": "Chakraverty, S",
+    "name": "Yin, R",
     "age": 58
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11127,
+  "pk": 11216,
   "fields": {
-    "name": "Tyson, R K",
-    "age": 81
+    "name": "Watts, S",
+    "age": 52
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11128,
+  "pk": 11217,
   "fields": {
-    "name": "Bokhan, P P",
-    "age": 73
+    "name": "Erickson, P H P",
+    "age": 33
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11129,
+  "pk": 11218,
   "fields": {
-    "name": "Andrews, D L",
-    "age": 39
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11130,
-  "fields": {
-    "name": "Goldsmid, H J",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11131,
-  "fields": {
-    "name": "Koprowski, P R",
-    "age": 84
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11132,
-  "fields": {
-    "name": "Saunderson, J R",
-    "age": 70
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11133,
-  "fields": {
-    "name": "Ferry, D K",
+    "name": "Parker, D",
     "age": 74
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11134,
+  "pk": 11219,
   "fields": {
-    "name": "Mazilu, D A",
-    "age": 67
+    "name": "Ferry, D K",
+    "age": 60
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11135,
+  "pk": 11220,
   "fields": {
-    "name": "Volpe, P G",
-    "age": 41
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11136,
-  "fields": {
-    "name": "Forinash III, K",
-    "age": 70
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11137,
-  "fields": {
-    "name": "Ironside, C",
-    "age": 59
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11138,
-  "fields": {
-    "name": "Ferreira, R",
-    "age": 32
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11139,
-  "fields": {
-    "name": "Duarte, F J",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11140,
-  "fields": {
-    "name": "Suri, J S",
-    "age": 80
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11141,
-  "fields": {
-    "name": "El-Baz, A",
-    "age": 35
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11142,
-  "fields": {
-    "name": "Khanna, V K",
+    "name": "Nahmad-Achar, E",
     "age": 56
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11143,
+  "pk": 11221,
   "fields": {
     "name": "Prša, A",
-    "age": 81
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11144,
-  "fields": {
-    "name": "Bajaj, V",
     "age": 46
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11145,
+  "pk": 11222,
   "fields": {
-    "name": "Mukhopadhyay, S",
-    "age": 55
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11146,
-  "fields": {
-    "name": "Attard, P",
-    "age": 35
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11147,
-  "fields": {
-    "name": "Portegies Zwart, S",
-    "age": 75
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11148,
-  "fields": {
-    "name": "Aspuru-Guzik, A n",
+    "name": "Keidar, M",
     "age": 54
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11149,
+  "pk": 11223,
   "fields": {
-    "name": "dos Santos Ferreira, P M r F",
-    "age": 81
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11150,
-  "fields": {
-    "name": "Kajita, M",
-    "age": 71
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11151,
-  "fields": {
-    "name": "Mackay, D T G",
-    "age": 83
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11152,
-  "fields": {
-    "name": "Yuan, C",
-    "age": 60
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11153,
-  "fields": {
-    "name": "Navarrete-Benlloch, C",
-    "age": 48
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11154,
-  "fields": {
-    "name": "Waigh, D T",
-    "age": 38
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11155,
-  "fields": {
-    "name": "Bojowald, M",
-    "age": 66
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11156,
-  "fields": {
-    "name": "Cho, S",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11157,
-  "fields": {
-    "name": "Wabnitz, S",
-    "age": 70
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11158,
-  "fields": {
-    "name": "Reed, B C",
-    "age": 61
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11159,
-  "fields": {
-    "name": "Greensite, J",
-    "age": 59
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11160,
-  "fields": {
-    "name": "Beveridge, D L",
-    "age": 30
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11161,
-  "fields": {
-    "name": "Méndez, A",
-    "age": 39
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11162,
-  "fields": {
-    "name": "Sperrin, M",
-    "age": 54
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11163,
-  "fields": {
-    "name": "Rauscher, T",
-    "age": 58
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11164,
-  "fields": {
-    "name": "Shneider, M N",
-    "age": 79
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11165,
-  "fields": {
-    "name": "Junker, G",
-    "age": 30
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11166,
-  "fields": {
-    "name": "Bunch, P R M",
-    "age": 42
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11167,
-  "fields": {
-    "name": "Glazer, E P A M",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11168,
-  "fields": {
-    "name": "Kong, D L B",
-    "age": 70
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11169,
-  "fields": {
-    "name": "Mazur, V",
-    "age": 40
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11170,
-  "fields": {
-    "name": "Williams, J H",
-    "age": 59
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11171,
-  "fields": {
-    "name": "Lipson, P S G",
-    "age": 33
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11172,
-  "fields": {
-    "name": "Bliznakova, K",
-    "age": 46
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11173,
-  "fields": {
-    "name": "Patel, H N",
-    "age": 48
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11174,
-  "fields": {
-    "name": "Evans, N",
-    "age": 62
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11175,
-  "fields": {
-    "name": "Popescu, G",
+    "name": "Kolata, J J",
     "age": 78
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11176,
+  "pk": 11224,
   "fields": {
-    "name": "Boice, D C",
-    "age": 47
+    "name": "Khanna, V K",
+    "age": 54
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11177,
+  "pk": 11225,
   "fields": {
-    "name": "Hubrig, D S",
+    "name": "Lee, C",
     "age": 70
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11178,
+  "pk": 11226,
   "fields": {
-    "name": "Sarkar, S K",
-    "age": 57
+    "name": "Merle, A",
+    "age": 38
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11179,
+  "pk": 11227,
   "fields": {
-    "name": "Leach, R",
-    "age": 81
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11180,
-  "fields": {
-    "name": "Davenport, K",
-    "age": 76
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11181,
-  "fields": {
-    "name": "Horwitz, L P",
-    "age": 34
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11182,
-  "fields": {
-    "name": "Deppisch, F F",
-    "age": 46
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11183,
-  "fields": {
-    "name": "Ewart, P",
-    "age": 67
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11184,
-  "fields": {
-    "name": "Done, R",
-    "age": 63
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11185,
-  "fields": {
-    "name": "Ainslie, D M",
-    "age": 42
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11186,
-  "fields": {
-    "name": "Levin, M",
-    "age": 63
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11187,
-  "fields": {
-    "name": "Radeva, P P",
-    "age": 39
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11188,
-  "fields": {
-    "name": "Wolski, A",
-    "age": 65
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11189,
-  "fields": {
-    "name": "Chowdhury, S",
-    "age": 68
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11190,
-  "fields": {
-    "name": "Subohi, D O",
-    "age": 65
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11191,
-  "fields": {
-    "name": "Rodriguez, L",
-    "age": 48
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11192,
-  "fields": {
-    "name": "Mesinger, P A",
+    "name": "Beaver, J",
     "age": 80
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11193,
+  "pk": 11228,
   "fields": {
-    "name": "Milotti, E",
-    "age": 55
+    "name": "Matson, W R",
+    "age": 62
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11194,
+  "pk": 11229,
   "fields": {
-    "name": "Pécseli, P H",
-    "age": 65
+    "name": "Park, S",
+    "age": 47
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11195,
+  "pk": 11230,
   "fields": {
-    "name": "Morrison, K",
-    "age": 60
+    "name": "Scott, B",
+    "age": 67
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11196,
+  "pk": 11231,
   "fields": {
-    "name": "Hinsen, K",
-    "age": 46
+    "name": "Finkelstein, D R",
+    "age": 69
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11197,
+  "pk": 11232,
   "fields": {
-    "name": "Pereyra, N A",
-    "age": 70
+    "name": "Mak, S T",
+    "age": 80
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11198,
+  "pk": 11233,
   "fields": {
-    "name": "Butikov, E",
-    "age": 61
+    "name": "Mierke, C T",
+    "age": 43
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11199,
+  "pk": 11234,
   "fields": {
-    "name": "Rao, K S",
+    "name": "Lamb, D J J",
     "age": 33
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11200,
+  "pk": 11235,
   "fields": {
-    "name": "White, G",
-    "age": 70
+    "name": "Sperrin, M",
+    "age": 75
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11201,
+  "pk": 11236,
   "fields": {
-    "name": "Fernando, P X",
-    "age": 63
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11202,
-  "fields": {
-    "name": "Schwalm, W A",
-    "age": 77
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11203,
-  "fields": {
-    "name": "Bernal, S",
-    "age": 50
-  }
-},
-{
-  "model": "ann_agg.author",
-  "pk": 11204,
-  "fields": {
-    "name": "Sinha, D",
+    "name": "Barua, A",
     "age": 83
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11205,
+  "pk": 11237,
   "fields": {
-    "name": "Madhusudhan, N",
-    "age": 82
+    "name": "Calle, C I",
+    "age": 30
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11206,
+  "pk": 11238,
   "fields": {
-    "name": "Fishman, R S",
-    "age": 65
+    "name": "Ryabov, V A",
+    "age": 53
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11207,
+  "pk": 11239,
   "fields": {
-    "name": "Mierke, C T",
-    "age": 50
+    "name": "Schiff, J L",
+    "age": 32
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11208,
+  "pk": 11240,
   "fields": {
-    "name": "Nair, R",
-    "age": 39
+    "name": "Bhatia, S",
+    "age": 46
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11209,
+  "pk": 11241,
   "fields": {
-    "name": "Pella, P",
+    "name": "Williams, J H",
+    "age": 60
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11242,
+  "fields": {
+    "name": "DiLisi, G A",
+    "age": 67
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11243,
+  "fields": {
+    "name": "Fortov, V E",
+    "age": 60
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11244,
+  "fields": {
+    "name": "Avendaño Cervantes, G",
     "age": 72
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11210,
+  "pk": 11245,
   "fields": {
-    "name": "Yin, R",
+    "name": "Seigar, M S",
+    "age": 33
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11246,
+  "fields": {
+    "name": "Salyk, P C",
     "age": 50
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11211,
+  "pk": 11247,
   "fields": {
-    "name": "Khachan, J",
-    "age": 40
+    "name": "Dainotti, D M",
+    "age": 46
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11212,
+  "pk": 11248,
   "fields": {
-    "name": "Barat CLSO, K",
+    "name": "Waigh, D T",
+    "age": 49
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11249,
+  "fields": {
+    "name": "Whittle, K",
+    "age": 79
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11250,
+  "fields": {
+    "name": "Nishiyama, J J",
+    "age": 79
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11251,
+  "fields": {
+    "name": "Albert, A",
+    "age": 44
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11252,
+  "fields": {
+    "name": "Liengme, B V",
+    "age": 57
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11253,
+  "fields": {
+    "name": "Whitney, J F",
+    "age": 75
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11254,
+  "fields": {
+    "name": "Huinink, H",
+    "age": 74
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11255,
+  "fields": {
+    "name": "Wang, P J",
+    "age": 66
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11256,
+  "fields": {
+    "name": "Zain, P S B",
+    "age": 60
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11257,
+  "fields": {
+    "name": "Temple, T",
+    "age": 61
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11258,
+  "fields": {
+    "name": "Rowlands, A",
+    "age": 75
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11259,
+  "fields": {
+    "name": "Go, D B",
+    "age": 70
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11260,
+  "fields": {
+    "name": "Strickland, M",
+    "age": 73
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11261,
+  "fields": {
+    "name": "Karimi, M",
+    "age": 46
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11262,
+  "fields": {
+    "name": "Povey, M",
+    "age": 50
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11263,
+  "fields": {
+    "name": "Likharev, K K",
+    "age": 72
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11264,
+  "fields": {
+    "name": "Vallance, C",
+    "age": 30
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11265,
+  "fields": {
+    "name": "Kajita, M",
+    "age": 52
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11266,
+  "fields": {
+    "name": "Biswas, P M",
+    "age": 76
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11267,
+  "fields": {
+    "name": "Gupta, M",
+    "age": 62
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11268,
+  "fields": {
+    "name": "Mazilu, D A",
+    "age": 58
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11269,
+  "fields": {
+    "name": "Schödel, P R",
+    "age": 52
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11270,
+  "fields": {
+    "name": "Ydri, B",
+    "age": 43
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11271,
+  "fields": {
+    "name": "Pereyra, N A",
+    "age": 37
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11272,
+  "fields": {
+    "name": "Rao, K S",
+    "age": 51
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11273,
+  "fields": {
+    "name": "Pascalutsa, V",
+    "age": 37
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11274,
+  "fields": {
+    "name": "Levi, A F J",
+    "age": 73
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11275,
+  "fields": {
+    "name": "Singh, P R P",
+    "age": 59
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11276,
+  "fields": {
+    "name": "González-Acuña, R G",
+    "age": 39
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11277,
+  "fields": {
+    "name": "Goncharova, L V",
     "age": 31
   }
 },
 {
   "model": "ann_agg.author",
-  "pk": 11213,
+  "pk": 11278,
   "fields": {
-    "name": "Miftahof, R N",
+    "name": "Baker, B",
+    "age": 82
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11279,
+  "fields": {
+    "name": "Ivanova, N",
+    "age": 77
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11280,
+  "fields": {
+    "name": "Faulkner, J S",
+    "age": 44
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11281,
+  "fields": {
+    "name": "Inglesfield, J",
+    "age": 46
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11282,
+  "fields": {
+    "name": "Ren, F",
+    "age": 35
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11283,
+  "fields": {
+    "name": "Moffat, J",
+    "age": 48
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11284,
+  "fields": {
+    "name": "Connolly, J W",
+    "age": 79
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11285,
+  "fields": {
+    "name": "Lique, D F o",
+    "age": 79
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11286,
+  "fields": {
+    "name": "Levin, M",
+    "age": 47
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11287,
+  "fields": {
+    "name": "Banfi, A",
+    "age": 38
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11288,
+  "fields": {
+    "name": "Tyson, R K",
+    "age": 48
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11289,
+  "fields": {
+    "name": "Schwalm, W A",
+    "age": 76
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11290,
+  "fields": {
+    "name": "White, G",
+    "age": 63
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11291,
+  "fields": {
+    "name": "Evans, N",
+    "age": 53
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11292,
+  "fields": {
+    "name": "Done, R",
+    "age": 67
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11293,
+  "fields": {
+    "name": "Bohara, R",
+    "age": 56
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11294,
+  "fields": {
+    "name": "Mukherjee, S",
+    "age": 75
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11295,
+  "fields": {
+    "name": "Paetz gen. Schieck, H",
+    "age": 56
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11296,
+  "fields": {
+    "name": "Riley, P D",
+    "age": 43
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11297,
+  "fields": {
+    "name": "de Grijs, P R",
+    "age": 44
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11298,
+  "fields": {
+    "name": "Chakraverty, S",
+    "age": 54
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11299,
+  "fields": {
+    "name": "Ramm, A G",
+    "age": 78
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11300,
+  "fields": {
+    "name": "Conselice, C J",
+    "age": 85
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11301,
+  "fields": {
+    "name": "Colonna, G",
+    "age": 45
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11302,
+  "fields": {
+    "name": "Sarkar, S K",
     "age": 36
   }
 },
 {
-  "model": "ann_agg.publisher",
-  "pk": 283,
+  "model": "ann_agg.author",
+  "pk": 11303,
   "fields": {
-    "name": "Broad Interest Publisher"
+    "name": "Nguyen, D T",
+    "age": 51
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11304,
+  "fields": {
+    "name": "Westerveld, M W J",
+    "age": 40
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11305,
+  "fields": {
+    "name": "Walter, A",
+    "age": 43
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11306,
+  "fields": {
+    "name": "Glaeser, R M",
+    "age": 48
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11307,
+  "fields": {
+    "name": "Baker, M J",
+    "age": 67
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11308,
+  "fields": {
+    "name": "Kane, G",
+    "age": 47
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11309,
+  "fields": {
+    "name": "Grady, D",
+    "age": 63
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11310,
+  "fields": {
+    "name": "Barman Roy, S",
+    "age": 46
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11311,
+  "fields": {
+    "name": "Ramshaw, P J A M",
+    "age": 40
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11312,
+  "fields": {
+    "name": "Vasu, P R M",
+    "age": 61
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11313,
+  "fields": {
+    "name": "Allain, R",
+    "age": 40
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11314,
+  "fields": {
+    "name": "Berthod, D C",
+    "age": 61
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11315,
+  "fields": {
+    "name": "Ironside, C",
+    "age": 81
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11316,
+  "fields": {
+    "name": "Xiao, C",
+    "age": 38
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11317,
+  "fields": {
+    "name": "Singh, A",
+    "age": 68
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11318,
+  "fields": {
+    "name": "Dodson-Robinson, P S",
+    "age": 61
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11319,
+  "fields": {
+    "name": "Ferreira, R",
+    "age": 64
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11320,
+  "fields": {
+    "name": "Golob, B",
+    "age": 52
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11321,
+  "fields": {
+    "name": "Devine, S D",
+    "age": 79
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11322,
+  "fields": {
+    "name": "Murshid, S H",
+    "age": 75
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11323,
+  "fields": {
+    "name": "Pires, A S T",
+    "age": 81
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11324,
+  "fields": {
+    "name": "Dilworth, D",
+    "age": 85
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11325,
+  "fields": {
+    "name": "Greenslade Jr., T B",
+    "age": 59
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11326,
+  "fields": {
+    "name": "Sinha, D",
+    "age": 36
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11327,
+  "fields": {
+    "name": "Saunderson, J R",
+    "age": 60
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11328,
+  "fields": {
+    "name": "Lin, P T",
+    "age": 61
+  }
+},
+{
+  "model": "ann_agg.author",
+  "pk": 11329,
+  "fields": {
+    "name": "Shukla, A K",
+    "age": 64
   }
 },
 {
   "model": "ann_agg.publisher",
-  "pk": 284,
+  "pk": 286,
   "fields": {
     "name": "Research & Reference text Publisher"
   }
 },
 {
   "model": "ann_agg.publisher",
-  "pk": 285,
+  "pk": 287,
+  "fields": {
+    "name": "Broad Interest Publisher"
+  }
+},
+{
+  "model": "ann_agg.publisher",
+  "pk": 288,
   "fields": {
     "name": "Course Text Publisher"
   }
 },
 {
   "model": "ann_agg.book",
-  "pk": 1704,
-  "fields": {
-    "name": "Hubble Deep Field and the Distant Universe",
-    "pages": 144,
-    "price": "67.00",
-    "rating": 3.7,
-    "publisher": 283,
-    "pubdate": "2018-09-01",
-    "authors": [
-      11094
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1705,
-  "fields": {
-    "name": "Disorder in Domain Theory",
-    "pages": 396,
-    "price": "65.33",
-    "rating": 5.5,
-    "publisher": 284,
-    "pubdate": "2018-09-01",
-    "authors": [
-      11095
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1706,
-  "fields": {
-    "name": "Biopharmaceutical Manufacturing, Volume 2 — Unit Processes",
-    "pages": 110,
-    "price": "90.43",
-    "rating": 6.0,
-    "publisher": 284,
-    "pubdate": "2019-10-02",
-    "authors": [
-      11096
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1707,
-  "fields": {
-    "name": "Organ Printing",
-    "pages": 163,
-    "price": "102.33",
-    "rating": 3.5,
-    "publisher": 284,
-    "pubdate": "2015-10-01",
-    "authors": [
-      11097
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1708,
-  "fields": {
-    "name": "Astronomy Education, Volume 2 — Best practices for online learning environments",
-    "pages": 323,
-    "price": "138.40",
-    "rating": 3.2,
-    "publisher": 283,
-    "pubdate": "2020-12-01",
-    "authors": [
-      11098
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1709,
-  "fields": {
-    "name": "Radiation Dose Management of Pregnant Patients, Pregnant Staff and Paediatric Patients — Diagnostic and interventional radiology",
-    "pages": 386,
-    "price": "174.00",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2019-12-01",
-    "authors": [
-      11099
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1710,
-  "fields": {
-    "name": "Advanced Image Processing for Nuclear Medicine Practice",
-    "pages": 467,
-    "price": "55.12",
-    "rating": 4.3,
-    "publisher": 284,
-    "pubdate": "2019-08-02",
-    "authors": [
-      11100
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1711,
-  "fields": {
-    "name": "Essential Semiconductor Laser Device Physics",
-    "pages": 302,
-    "price": "106.67",
-    "rating": 3.5,
-    "publisher": 285,
-    "pubdate": "2018-07-01",
-    "authors": [
-      11101
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1712,
-  "fields": {
-    "name": "Non-Instantaneous Impulsive Differential Equations — Basic theory and computation",
-    "pages": 648,
-    "price": "41.00",
-    "rating": 2.0,
-    "publisher": 284,
-    "pubdate": "2018-11-01",
-    "authors": [
-      11102
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1713,
-  "fields": {
-    "name": "Solitons in Crystalline Processes — Statistical thermodynamics of structural phase transitions and mesoscopic disorder",
-    "pages": 623,
-    "price": "93.86",
-    "rating": 5.3,
-    "publisher": 284,
-    "pubdate": "2017-11-01",
-    "authors": [
-      11103
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1714,
-  "fields": {
-    "name": "New Technologies for Smart Grid Operation",
-    "pages": 500,
-    "price": "25.17",
-    "rating": 5.0,
-    "publisher": 284,
-    "pubdate": "2015-02-01",
-    "authors": [
-      11104
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1715,
-  "fields": {
-    "name": "Spectroscopic Tools for Food Analysis",
-    "pages": 130,
-    "price": "89.75",
-    "rating": 4.3,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11105
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1716,
-  "fields": {
-    "name": "Lectures on General Relativity, Cosmology and Quantum Black Holes",
-    "pages": 572,
-    "price": "46.00",
-    "rating": 7.5,
-    "publisher": 285,
-    "pubdate": "2017-07-01",
-    "authors": [
-      11106
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1717,
-  "fields": {
-    "name": "Wearable Communication Systems and Antennas for Commercial, Sport and Medical Applications",
-    "pages": 422,
-    "price": "27.20",
-    "rating": 4.2,
-    "publisher": 284,
-    "pubdate": "2018-12-01",
-    "authors": [
-      11107
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1718,
-  "fields": {
-    "name": "Symmetry and Collective Fluctuations in Evolutionary Games",
-    "pages": 389,
-    "price": "21.71",
-    "rating": 9.0,
-    "publisher": 284,
-    "pubdate": "2015-02-01",
-    "authors": [
-      11108
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1719,
-  "fields": {
-    "name": "Physics of Shock and Impact, Volume 1 — Fundamentals and dynamic failure",
-    "pages": 552,
-    "price": "64.17",
-    "rating": 2.2,
-    "publisher": 284,
-    "pubdate": "2017-12-01",
-    "authors": [
-      11109
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1720,
-  "fields": {
-    "name": "Butterfly in the Quantum World — The story of the most fascinating quantum fractal",
-    "pages": 385,
-    "price": "69.67",
-    "rating": 2.0,
-    "publisher": 283,
-    "pubdate": "2016-09-01",
-    "authors": [
-      11110
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1721,
-  "fields": {
-    "name": "Matrix Models of String Theory",
-    "pages": 625,
-    "price": "21.83",
-    "rating": 10.0,
-    "publisher": 285,
-    "pubdate": "2018-10-01",
-    "authors": [
-      11106
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1722,
-  "fields": {
-    "name": "Advances in X-Ray Spectroscopy of Laser Plasmas",
-    "pages": 327,
-    "price": "37.50",
-    "rating": 3.0,
-    "publisher": 284,
-    "pubdate": "2020-07-01",
-    "authors": [
-      11111
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1723,
-  "fields": {
-    "name": "Quantum Metrology with Photoelectrons, Volume 2 — Applications and advances",
-    "pages": 227,
-    "price": "101.67",
-    "rating": 2.4,
-    "publisher": 284,
-    "pubdate": "2018-04-01",
-    "authors": [
-      11112
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1724,
-  "fields": {
-    "name": "Separation of Variables and Superintegrability — The symmetry of solvable systems",
-    "pages": 232,
-    "price": "30.67",
-    "rating": 6.3,
-    "publisher": 284,
-    "pubdate": "2018-06-01",
-    "authors": [
-      11113
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1725,
-  "fields": {
-    "name": "A Concise Introduction to Quantum Mechanics",
-    "pages": 309,
-    "price": "110.50",
-    "rating": 2.0,
-    "publisher": 285,
-    "pubdate": "2018-02-01",
-    "authors": [
-      11114
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1726,
-  "fields": {
-    "name": "Developments in Photoelasticity — A renaissance",
-    "pages": 476,
-    "price": "56.88",
-    "rating": 2.2,
-    "publisher": 283,
-    "pubdate": "2019-10-02",
-    "authors": [
-      11115
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1727,
-  "fields": {
-    "name": "Extragalactic Astrophysics",
-    "pages": 645,
-    "price": "68.20",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2016-09-01",
-    "authors": [
-      11116
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1728,
-  "fields": {
-    "name": "Topological Insulators",
-    "pages": 407,
-    "price": "76.12",
-    "rating": 4.3,
-    "publisher": 284,
-    "pubdate": "2019-04-01",
-    "authors": [
-      11117
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1729,
-  "fields": {
-    "name": "Dark Matter in the Universe",
-    "pages": 214,
-    "price": "92.20",
-    "rating": 4.8,
-    "publisher": 284,
-    "pubdate": "2015-10-01",
-    "authors": [
-      11118
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1730,
-  "fields": {
-    "name": "Truth and Traceability in Physics and Metrology",
-    "pages": 476,
-    "price": "216.00",
-    "rating": 8.5,
-    "publisher": 283,
-    "pubdate": "2018-10-01",
-    "authors": [
-      11119
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1731,
-  "fields": {
-    "name": "Bionanomaterials — Fundamentals and biomedical applications",
-    "pages": 176,
-    "price": "114.60",
-    "rating": 3.4,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11120
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1732,
-  "fields": {
-    "name": "Nanometrology Using the Transmission Electron Microscope",
-    "pages": 515,
-    "price": "85.50",
-    "rating": 7.5,
-    "publisher": 284,
-    "pubdate": "2015-10-01",
-    "authors": [
-      11121
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1733,
-  "fields": {
-    "name": "Quantum Transport in Nanostructures and Molecules — An introduction to molecular electronics",
-    "pages": 194,
-    "price": "111.67",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2019-03-02",
-    "authors": [
-      11122
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1734,
-  "fields": {
-    "name": "Quantum Chemistry, 2nd Edition — A concise introduction for students of physics, chemistry, biochemistry and materials science",
-    "pages": 613,
-    "price": "88.25",
-    "rating": 3.2,
-    "publisher": 285,
-    "pubdate": "2017-09-01",
-    "authors": [
-      11123
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1735,
-  "fields": {
-    "name": "Modern Optimization Methods for Science, Engineering and Technology",
-    "pages": 127,
-    "price": "76.00",
-    "rating": 3.3,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11124
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1736,
-  "fields": {
-    "name": "An Introduction to the Physics of Nuclear Medicine",
-    "pages": 244,
-    "price": "110.50",
-    "rating": 5.0,
-    "publisher": 285,
-    "pubdate": "2018-06-01",
-    "authors": [
-      11125
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1737,
-  "fields": {
-    "name": "Modeling and Computation in Vibration Problems, Volume 1 — Numerical and semi-analytical methods",
-    "pages": 265,
-    "price": "186.33",
-    "rating": 6.0,
-    "publisher": 284,
-    "pubdate": "2019-09-02",
-    "authors": [
-      11126
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1738,
-  "fields": {
-    "name": "Principles and Applications of Fourier Optics",
-    "pages": 263,
-    "price": "51.62",
-    "rating": 5.0,
-    "publisher": 285,
-    "pubdate": "2014-08-01",
-    "authors": [
-      11127
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1739,
-  "fields": {
-    "name": "Gas Discharge in Strong Electric Fields — Runaway electrons and other unconventional techniques",
-    "pages": 195,
-    "price": "161.00",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2019-10-02",
-    "authors": [
-      11128
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1740,
-  "fields": {
-    "name": "Molecular Photophysics and Spectroscopy (Second Edition)",
-    "pages": 525,
-    "price": "26.00",
-    "rating": 2.0,
-    "publisher": 285,
-    "pubdate": "2019-05-02",
-    "authors": [
-      11129
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1741,
-  "fields": {
-    "name": "The Physics of Thermoelectric Energy Conversion",
-    "pages": 681,
-    "price": "13.25",
-    "rating": 2.2,
-    "publisher": 284,
-    "pubdate": "2017-04-01",
-    "authors": [
-      11130
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1742,
-  "fields": {
-    "name": "Air-Puff Tonometers — Challenges and insights",
-    "pages": 355,
-    "price": "78.00",
-    "rating": 4.5,
-    "publisher": 284,
-    "pubdate": "2019-04-01",
-    "authors": [
-      11131
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1743,
-  "fields": {
-    "name": "Medical and Dental Guidance Notes — Radiation protection in the clinical environment: IPEM Report 113",
-    "pages": 426,
-    "price": "117.25",
-    "rating": 2.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11132
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1744,
-  "fields": {
-    "name": "Transport in Semiconductor Mesoscopic Devices",
-    "pages": 519,
-    "price": "27.29",
-    "rating": 4.8,
-    "publisher": 284,
-    "pubdate": "2015-08-01",
-    "authors": [
-      11133
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1745,
-  "fields": {
-    "name": "From Complex to Simple — Interdisciplinary stochastic models",
-    "pages": 629,
-    "price": "55.50",
-    "rating": 3.8,
-    "publisher": 284,
-    "pubdate": "2018-08-01",
-    "authors": [
-      11134
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1746,
-  "fields": {
-    "name": "Simulation of Complex Systems",
-    "pages": 187,
-    "price": "51.00",
-    "rating": 1.8,
-    "publisher": 285,
-    "pubdate": "2019-10-02",
-    "authors": [
-      11135
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1747,
-  "fields": {
-    "name": "Physics and the Environment",
-    "pages": 556,
-    "price": "124.00",
-    "rating": 4.0,
-    "publisher": 283,
-    "pubdate": "2017-06-01",
-    "authors": [
-      11136
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1748,
-  "fields": {
-    "name": "Semiconductor Integrated Optics for Switching Light, Second Edition",
-    "pages": 689,
-    "price": "106.75",
-    "rating": 4.7,
-    "publisher": 284,
-    "pubdate": "2017-08-01",
-    "authors": [
-      11137
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1749,
-  "fields": {
-    "name": "Capture and Relaxation in Self-Assembled Semiconductor Quantum Dots — The dot and its environment",
-    "pages": 158,
-    "price": "152.50",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2016-02-01",
-    "authors": [
-      11138
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1750,
-  "fields": {
-    "name": "Quantum Entanglement Engineering and Applications",
-    "pages": 625,
-    "price": "61.67",
-    "rating": 5.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11139
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1751,
-  "fields": {
-    "name": "Multimodality Imaging — Deep learning applications",
-    "pages": 348,
-    "price": "286.00",
-    "rating": 4.5,
-    "publisher": 284,
-    "pubdate": "2019-12-02",
-    "authors": [
-      11140
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1752,
-  "fields": {
-    "name": "Detection Systems in Lung Cancer and Imaging, Volume 1",
-    "pages": 404,
-    "price": "61.00",
-    "rating": 1.8,
-    "publisher": 284,
-    "pubdate": "2019-10-02",
-    "authors": [
-      11141
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1753,
-  "fields": {
-    "name": "Flexible Electronics, Volume 1 — Mechanical background, materials and manufacturing",
-    "pages": 388,
-    "price": "52.60",
-    "rating": 2.2,
-    "publisher": 285,
-    "pubdate": "2019-07-01",
-    "authors": [
-      11142
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1754,
-  "fields": {
-    "name": "Modeling and Analysis of Eclipsing Binary Stars — The theory and design principles of PHOEBE",
-    "pages": 620,
-    "price": "95.25",
-    "rating": 7.5,
-    "publisher": 284,
-    "pubdate": "2018-12-01",
-    "authors": [
-      11143
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1755,
-  "fields": {
-    "name": "Modelling and Analysis of Active Biopotential Signals in Healthcare, Volume 2",
-    "pages": 457,
-    "price": "71.00",
-    "rating": 3.7,
-    "publisher": 284,
-    "pubdate": "2020-12-01",
-    "authors": [
-      11144
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1756,
-  "fields": {
-    "name": "Printed and Flexible Sensor Technology — Fabrication and applications",
-    "pages": 574,
-    "price": "94.57",
-    "rating": 10.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11145
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1757,
-  "fields": {
-    "name": "Entropy Beyond the Second Law — Thermodynamics and statistical mechanics for equilibrium, non-equilibrium, classical, and quantum systems",
-    "pages": 223,
-    "price": "51.50",
-    "rating": 6.3,
-    "publisher": 284,
-    "pubdate": "2018-05-01",
-    "authors": [
-      11146
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1758,
-  "fields": {
-    "name": "Astrophysical Recipes — The art of AMUSE",
-    "pages": 630,
-    "price": "46.67",
-    "rating": 3.2,
-    "publisher": 284,
-    "pubdate": "2018-12-01",
-    "authors": [
-      11147
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1759,
-  "fields": {
-    "name": "Ultrafast Spectroscopy — Quantum information and wavepackets",
-    "pages": 528,
-    "price": "70.20",
-    "rating": 5.5,
-    "publisher": 284,
-    "pubdate": "2014-09-01",
-    "authors": [
-      11148
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1760,
-  "fields": {
-    "name": "Optical Fiber Technology and Applications — Recent advances",
-    "pages": 523,
-    "price": "105.00",
-    "rating": 9.5,
-    "publisher": 284,
-    "pubdate": "2019-06-02",
-    "authors": [
-      11149
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1761,
-  "fields": {
-    "name": "Measurement, Uncertainty and Lasers",
-    "pages": 345,
-    "price": "80.00",
-    "rating": 3.0,
-    "publisher": 284,
-    "pubdate": "2019-04-01",
-    "authors": [
-      11150
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1762,
-  "fields": {
-    "name": "Modern Analytical Electromagnetic Homogenization with Mathematica (Second Edition)",
-    "pages": 591,
-    "price": "55.00",
-    "rating": 2.0,
-    "publisher": 284,
-    "pubdate": "2020-12-01",
-    "authors": [
-      11151
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1763,
-  "fields": {
-    "name": "Introduction to the Kinetics of Glow Discharges",
-    "pages": 438,
-    "price": "100.00",
-    "rating": 1.6,
-    "publisher": 284,
-    "pubdate": "2018-08-01",
-    "authors": [
-      11152
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1764,
-  "fields": {
-    "name": "An Introduction to the Formalism of Quantum Information with Continuous Variables",
-    "pages": 221,
-    "price": "39.67",
-    "rating": 2.0,
-    "publisher": 284,
-    "pubdate": "2016-01-01",
-    "authors": [
-      11153
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1765,
-  "fields": {
-    "name": "Some Critical Questions in Biological Physics — A guided tour around the bugbears",
-    "pages": 514,
-    "price": "82.25",
-    "rating": 2.7,
-    "publisher": 284,
-    "pubdate": "2017-09-01",
-    "authors": [
-      11154
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1766,
-  "fields": {
-    "name": "Photo Acoustic and Optical Coherence Tomography Imaging Volume 2 — Fundus Imaging for the Retina",
-    "pages": 600,
-    "price": "52.33",
-    "rating": 7.0,
-    "publisher": 284,
-    "pubdate": "2019-12-02",
-    "authors": [
-      11141
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1767,
-  "fields": {
-    "name": "Semiconductors — Bonds and bands",
-    "pages": 680,
-    "price": "95.00",
-    "rating": 3.7,
-    "publisher": 285,
-    "pubdate": "2013-09-01",
-    "authors": [
-      11133
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1768,
-  "fields": {
-    "name": "Foundations of Quantum Cosmology",
-    "pages": 346,
-    "price": "26.38",
-    "rating": 2.4,
-    "publisher": 284,
-    "pubdate": "2020-09-01",
-    "authors": [
-      11155
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1769,
-  "fields": {
-    "name": "Lung Cancer and Imaging",
-    "pages": 484,
-    "price": "89.00",
-    "rating": 2.4,
-    "publisher": 284,
-    "pubdate": "2019-12-01",
-    "authors": [
-      11141
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1770,
-  "fields": {
-    "name": "Numerical Calculation for Physics Laboratory Projects Using Microsoft EXCEL®",
-    "pages": 416,
-    "price": "95.60",
-    "rating": 3.3,
-    "publisher": 285,
-    "pubdate": "2019-10-01",
-    "authors": [
-      11156
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1771,
-  "fields": {
-    "name": "Nonlinear Guided Wave Optics — A testbed for extreme waves",
-    "pages": 261,
-    "price": "228.00",
-    "rating": 6.0,
-    "publisher": 284,
-    "pubdate": "2017-12-01",
-    "authors": [
-      11157
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1772,
-  "fields": {
-    "name": "The Bohr Atom — A guide",
-    "pages": 220,
-    "price": "71.67",
-    "rating": 3.8,
-    "publisher": 284,
-    "pubdate": "2020-11-01",
-    "authors": [
-      11158
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1773,
-  "fields": {
-    "name": "An Introduction to Quantum Theory",
-    "pages": 324,
-    "price": "104.33",
-    "rating": 4.5,
-    "publisher": 285,
-    "pubdate": "2017-02-01",
-    "authors": [
-      11159
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1774,
-  "fields": {
-    "name": "A Biophysical Research Primer",
-    "pages": 201,
-    "price": "32.50",
-    "rating": 4.5,
-    "publisher": 285,
-    "pubdate": "2019-08-02",
-    "authors": [
-      11160
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1775,
-  "fields": {
-    "name": "Searching for Habitable Worlds — An introduction",
-    "pages": 301,
-    "price": "33.83",
-    "rating": 3.0,
-    "publisher": 283,
-    "pubdate": "2016-04-01",
-    "authors": [
-      11161
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1776,
-  "fields": {
-    "name": "Scientific Basis of the Royal College of Radiologists Fellowship — Illustrated questions and answers",
-    "pages": 129,
-    "price": "121.25",
-    "rating": 6.7,
-    "publisher": 285,
-    "pubdate": "2014-12-01",
-    "authors": [
-      11162
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1777,
-  "fields": {
-    "name": "Essentials of Nucleosynthesis and Theoretical Nuclear Astrophysics",
-    "pages": 494,
-    "price": "68.38",
-    "rating": 3.4,
-    "publisher": 284,
-    "pubdate": "2020-07-01",
-    "authors": [
-      11163
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1778,
-  "fields": {
-    "name": "Liquid Dielectrics in an Inhomogeneous Pulsed Electric Field (Second Edition) — Dynamics, cavitation and related phenomena",
-    "pages": 369,
-    "price": "88.75",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11164
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1779,
+  "pk": 1835,
   "fields": {
     "name": "Supersymmetric Methods in Quantum, Statistical and Solid State Physics — Enlarged and Revised Edition",
-    "pages": 472,
-    "price": "82.43",
-    "rating": 5.0,
-    "publisher": 284,
+    "pages": 394,
+    "price": "22.60",
+    "rating": 6.0,
+    "publisher": 286,
     "pubdate": "2019-01-01",
     "authors": [
-      11165
+      11214
     ]
   }
 },
 {
   "model": "ann_agg.book",
-  "pk": 1780,
-  "fields": {
-    "name": "Optical Systems Design Detection Essentials — Radiometry, photometry, colorimetry, noise, and measurements",
-    "pages": 260,
-    "price": "180.67",
-    "rating": 3.2,
-    "publisher": 284,
-    "pubdate": "2019-06-02",
-    "authors": [
-      11166
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1781,
-  "fields": {
-    "name": "A Journey into Reciprocal Space (Second Edition) — A crystallographer’s perspective",
-    "pages": 545,
-    "price": "86.12",
-    "rating": 2.8,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11167
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1782,
-  "fields": {
-    "name": "Functional Ceramics Through Mechanochemical Activation",
-    "pages": 156,
-    "price": "66.00",
-    "rating": 1.6,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11168
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1783,
-  "fields": {
-    "name": "Principles of Lightning Physics",
-    "pages": 261,
-    "price": "27.75",
-    "rating": 4.8,
-    "publisher": 284,
-    "pubdate": "2016-12-01",
-    "authors": [
-      11169
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1784,
-  "fields": {
-    "name": "The Molecule as Meme",
-    "pages": 431,
-    "price": "62.50",
-    "rating": 4.3,
-    "publisher": 283,
-    "pubdate": "2018-11-01",
-    "authors": [
-      11170
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1785,
-  "fields": {
-    "name": "Optics Experiments and Demonstrations for Student Laboratories",
-    "pages": 316,
-    "price": "93.25",
-    "rating": 2.8,
-    "publisher": 285,
-    "pubdate": "2020-08-01",
-    "authors": [
-      11171
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1786,
-  "fields": {
-    "name": "A Modern Course in Quantum Field Theory, Volume 2 — Advanced topics",
-    "pages": 591,
-    "price": "22.88",
-    "rating": 2.2,
-    "publisher": 285,
-    "pubdate": "2019-05-01",
-    "authors": [
-      11106
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1787,
-  "fields": {
-    "name": "Photo Acoustic and Optical Coherence Tomography Imaging, Volume 3 — Angiography: an application in vessel imaging",
-    "pages": 277,
-    "price": "205.00",
-    "rating": 3.6,
-    "publisher": 284,
-    "pubdate": "2019-09-02",
-    "authors": [
-      11141
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1788,
-  "fields": {
-    "name": "Optical Nanomanipulation",
-    "pages": 185,
-    "price": "106.00",
-    "rating": 6.5,
-    "publisher": 284,
-    "pubdate": "2017-01-01",
-    "authors": [
-      11129
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1789,
-  "fields": {
-    "name": "Anthropomorphic Phantoms in Image Quality and Patient Dose Optimization — A EUTEMPE Network book",
-    "pages": 365,
-    "price": "105.00",
-    "rating": 4.3,
-    "publisher": 285,
-    "pubdate": "2018-12-01",
-    "authors": [
-      11172
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1790,
-  "fields": {
-    "name": "Breast Image Reconstruction and Cancer Detection Using Microwave Imaging",
-    "pages": 282,
-    "price": "90.00",
-    "rating": 1.6,
-    "publisher": 284,
-    "pubdate": "2019-09-02",
-    "authors": [
-      11173
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1791,
-  "fields": {
-    "name": "Theories of Matter, Space and Time, Volume 2 — Quantum Theories",
-    "pages": 142,
-    "price": "88.14",
-    "rating": 3.0,
-    "publisher": 285,
-    "pubdate": "2018-06-01",
-    "authors": [
-      11174
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1792,
-  "fields": {
-    "name": "Principles of Biophotonics, Volume 1 — Linear systems and the Fourier transform in optics",
-    "pages": 339,
-    "price": "80.57",
-    "rating": 6.0,
-    "publisher": 285,
-    "pubdate": "2018-12-01",
-    "authors": [
-      11175
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1793,
-  "fields": {
-    "name": "Comets in the 21st Century — A personal guide to experiencing the next great comet!",
-    "pages": 221,
-    "price": "27.57",
-    "rating": 4.3,
-    "publisher": 283,
-    "pubdate": "2019-04-01",
-    "authors": [
-      11176
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1794,
-  "fields": {
-    "name": "Magnetic Fields in O, B, and A Stars",
-    "pages": 454,
-    "price": "174.67",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11177
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1795,
-  "fields": {
-    "name": "Path Integral Quantization",
-    "pages": 205,
-    "price": "83.43",
-    "rating": 3.2,
-    "publisher": 284,
-    "pubdate": "2020-08-01",
-    "authors": [
-      11114
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1796,
-  "fields": {
-    "name": "Single Molecule Biophysics and Poisson Process Approach to Statistical Mechanics",
-    "pages": 306,
-    "price": "45.57",
-    "rating": 3.3,
-    "publisher": 284,
-    "pubdate": "2016-04-01",
-    "authors": [
-      11178
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1797,
-  "fields": {
-    "name": "Advances in Optical Form and Coordinate Metrology",
-    "pages": 424,
-    "price": "137.20",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2020-12-01",
-    "authors": [
-      11179
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1798,
-  "fields": {
-    "name": "The Nuclear Nonproliferation Treaty",
-    "pages": 183,
-    "price": "39.88",
-    "rating": 4.3,
-    "publisher": 283,
-    "pubdate": "2019-07-01",
-    "authors": [
-      11180
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1799,
-  "fields": {
-    "name": "Relativistic Many-Body Theory and Statistical Mechanics",
-    "pages": 139,
-    "price": "35.50",
-    "rating": 4.0,
-    "publisher": 284,
-    "pubdate": "2018-05-01",
-    "authors": [
-      11181
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1800,
-  "fields": {
-    "name": "A Modern Introduction to Dynamical Systems — For physics, mathematics, and natural sciences",
-    "pages": 212,
-    "price": "55.67",
-    "rating": 4.0,
-    "publisher": 285,
-    "pubdate": "2019-09-02",
-    "authors": [
-      11182
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1801,
-  "fields": {
-    "name": "Optics — The science of light",
-    "pages": 644,
-    "price": "130.33",
-    "rating": 6.3,
-    "publisher": 283,
-    "pubdate": "2019-10-01",
-    "authors": [
-      11183
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1802,
-  "fields": {
-    "name": "Defining and Measuring Nature — The make of all things",
-    "pages": 661,
-    "price": "134.40",
-    "rating": 4.3,
-    "publisher": 283,
-    "pubdate": "2014-03-01",
-    "authors": [
-      11170
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1803,
-  "fields": {
-    "name": "The Safe Use of Cryogenic Technologies — A handbook for best practice and training",
-    "pages": 600,
-    "price": "19.43",
-    "rating": 2.2,
-    "publisher": 284,
-    "pubdate": "2019-05-02",
-    "authors": [
-      11184
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1804,
-  "fields": {
-    "name": "Numerical Modelling of Bulk Superconductor Magnetisation",
-    "pages": 693,
-    "price": "33.60",
-    "rating": 6.5,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11185
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1805,
-  "fields": {
-    "name": "Ahead of the Curve, Volume 2 — Hidden breakthroughs in the biosciences",
-    "pages": 634,
-    "price": "149.00",
-    "rating": 4.7,
-    "publisher": 284,
-    "pubdate": "2018-11-01",
-    "authors": [
-      11186
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1806,
-  "fields": {
-    "name": "Vascular and Intravascular Imaging Trends, Analysis, and Challenges, Volume 1 — Stent applications",
-    "pages": 408,
-    "price": "57.38",
-    "rating": 4.2,
-    "publisher": 284,
-    "pubdate": "2019-08-01",
-    "authors": [
-      11187
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1807,
-  "fields": {
-    "name": "Introduction to Beam Dynamics in High-Energy Electron Storage Rings",
-    "pages": 210,
-    "price": "21.00",
-    "rating": 3.0,
-    "publisher": 284,
-    "pubdate": "2018-06-01",
-    "authors": [
-      11188
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1808,
-  "fields": {
-    "name": "Numerical Solutions of Boundary Value Problems with Finite Difference Method",
-    "pages": 293,
-    "price": "29.00",
-    "rating": 4.7,
-    "publisher": 284,
-    "pubdate": "2018-09-01",
-    "authors": [
-      11189
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1809,
-  "fields": {
-    "name": "Aurivillius Phase Materials — Exploring Lead-Free Ferroelectrics",
-    "pages": 380,
-    "price": "78.43",
-    "rating": 2.8,
-    "publisher": 284,
-    "pubdate": "2019-09-02",
-    "authors": [
-      11190
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1810,
-  "fields": {
-    "name": "On the Principle of Holographic Scaling — From college physics to black hole thermodynamics",
-    "pages": 242,
-    "price": "60.50",
-    "rating": 5.0,
-    "publisher": 284,
-    "pubdate": "2019-05-01",
-    "authors": [
-      11191
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1811,
-  "fields": {
-    "name": "Molecular Photophysics and Spectroscopy",
-    "pages": 273,
-    "price": "97.33",
-    "rating": 2.2,
-    "publisher": 284,
-    "pubdate": "2014-09-01",
-    "authors": [
-      11129
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1812,
-  "fields": {
-    "name": "Introduction to the Mathematical Physics of Nonlinear Waves",
-    "pages": 497,
-    "price": "246.00",
-    "rating": 3.5,
-    "publisher": 284,
-    "pubdate": "2014-03-01",
-    "authors": [
-      11103
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1813,
-  "fields": {
-    "name": "The Cosmic 21-cm Revolution — Charting the first billion years of our universe",
-    "pages": 415,
-    "price": "21.00",
-    "rating": 8.5,
-    "publisher": 284,
-    "pubdate": "2019-12-01",
-    "authors": [
-      11192
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1814,
-  "fields": {
-    "name": "The Physics of Noise",
-    "pages": 430,
-    "price": "169.00",
-    "rating": 2.5,
-    "publisher": 284,
-    "pubdate": "2019-10-01",
-    "authors": [
-      11193
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1815,
-  "fields": {
-    "name": "Low Frequency Waves and Turbulence in Magnetized Laboratory Plasmas and in the Ionosphere",
-    "pages": 317,
-    "price": "28.50",
-    "rating": 6.5,
-    "publisher": 284,
-    "pubdate": "2016-11-01",
-    "authors": [
-      11194
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1816,
-  "fields": {
-    "name": "Characterisation Methods in Solid State and Materials Science",
-    "pages": 594,
-    "price": "36.33",
-    "rating": 1.6,
-    "publisher": 284,
-    "pubdate": "2019-10-01",
-    "authors": [
-      11195
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1817,
-  "fields": {
-    "name": "Computation in Science (Second Edition) — From concepts to practice",
-    "pages": 599,
-    "price": "23.40",
-    "rating": 4.2,
-    "publisher": 283,
-    "pubdate": "2020-09-01",
-    "authors": [
-      11196
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1818,
-  "fields": {
-    "name": "Logic for Physicists",
-    "pages": 641,
-    "price": "72.25",
-    "rating": 3.2,
-    "publisher": 283,
-    "pubdate": "2018-06-01",
-    "authors": [
-      11197
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1819,
-  "fields": {
-    "name": "Motions of Celestial Bodies — Computer simulations",
-    "pages": 450,
-    "price": "92.33",
-    "rating": 3.8,
-    "publisher": 285,
-    "pubdate": "2014-10-01",
-    "authors": [
-      11198
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1820,
-  "fields": {
-    "name": "Generalized Hypergeometric Functions — Transformations and group theoretical aspects",
-    "pages": 570,
-    "price": "224.67",
-    "rating": 5.5,
-    "publisher": 284,
-    "pubdate": "2018-10-01",
-    "authors": [
-      11199
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1821,
-  "fields": {
-    "name": "A Pedagogical Introduction to Electroweak Baryogenesis",
-    "pages": 586,
-    "price": "69.00",
-    "rating": 2.4,
-    "publisher": 284,
-    "pubdate": "2016-12-01",
-    "authors": [
-      11200
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1822,
-  "fields": {
-    "name": "Visible Light Communications — Vehicular applications",
-    "pages": 492,
-    "price": "105.83",
-    "rating": 3.8,
-    "publisher": 284,
-    "pubdate": "2019-11-01",
-    "authors": [
-      11201
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1823,
-  "fields": {
-    "name": "Lectures on Selected Topics in Mathematical Physics: Introduction to Lie Theory with Applications",
-    "pages": 605,
-    "price": "25.00",
-    "rating": 4.5,
-    "publisher": 285,
-    "pubdate": "2017-04-01",
-    "authors": [
-      11202
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1824,
-  "fields": {
-    "name": "A Practical Introduction to Beam Physics and Particle Accelerators, 2nd Edition",
-    "pages": 426,
-    "price": "42.00",
-    "rating": 4.5,
-    "publisher": 284,
-    "pubdate": "2018-10-01",
-    "authors": [
-      11203
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1825,
-  "fields": {
-    "name": "Explicit Symmetry Breaking in Electrodynamic Systems and Electromagnetic Radiation",
-    "pages": 118,
-    "price": "65.60",
-    "rating": 2.4,
-    "publisher": 284,
-    "pubdate": "2016-04-01",
-    "authors": [
-      11204
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1826,
-  "fields": {
-    "name": "ExoFrontiers — Big questions in exoplanetary science",
-    "pages": 599,
-    "price": "259.00",
-    "rating": 3.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11205
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1827,
-  "fields": {
-    "name": "Spin-Wave Theory and Its Applications to Neutron Scattering and THz Spectroscopy",
-    "pages": 408,
-    "price": "31.00",
-    "rating": 7.5,
-    "publisher": 284,
-    "pubdate": "2018-11-01",
-    "authors": [
-      11206
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1828,
-  "fields": {
-    "name": "Physics of Cancer, Volume 3 (Second Edition) — Experimental biophysical techniques in cancer research",
-    "pages": 589,
-    "price": "92.67",
-    "rating": 2.0,
-    "publisher": 284,
-    "pubdate": "2019-07-02",
-    "authors": [
-      11207
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1829,
-  "fields": {
-    "name": "Mitigation of Cancer Therapy Side-Effects with Light",
-    "pages": 254,
-    "price": "22.17",
-    "rating": 2.8,
-    "publisher": 284,
-    "pubdate": "2016-11-01",
-    "authors": [
-      11208
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1830,
-  "fields": {
-    "name": "The Midlife Crisis of the Nuclear Nonproliferation Treaty",
-    "pages": 493,
-    "price": "65.50",
-    "rating": 6.0,
-    "publisher": 283,
-    "pubdate": "2016-03-01",
-    "authors": [
-      11209
-    ]
-  }
-},
-{
-  "model": "ann_agg.book",
-  "pk": 1831,
+  "pk": 1836,
   "fields": {
     "name": "Skin Photoaging",
-    "pages": 501,
-    "price": "52.57",
-    "rating": 2.8,
-    "publisher": 284,
+    "pages": 505,
+    "price": "100.75",
+    "rating": 4.0,
+    "publisher": 286,
     "pubdate": "2014-04-01",
     "authors": [
-      11210
+      11215
     ]
   }
 },
 {
   "model": "ann_agg.book",
-  "pk": 1832,
+  "pk": 1837,
   "fields": {
-    "name": "Thermal Properties of Matter",
-    "pages": 351,
-    "price": "53.67",
-    "rating": 7.0,
-    "publisher": 285,
-    "pubdate": "2018-02-01",
+    "name": "Airborne Maritime Surveillance Radar, Volume 2 — Post-war British ASV radars 1946–2000",
+    "pages": 115,
+    "price": "81.00",
+    "rating": 3.7,
+    "publisher": 287,
+    "pubdate": "2018-08-01",
     "authors": [
-      11211
+      11216
     ]
   }
 },
 {
   "model": "ann_agg.book",
-  "pk": 1833,
+  "pk": 1838,
   "fields": {
-    "name": "Laser Safety — Practical knowledge and solutions",
-    "pages": 163,
-    "price": "70.50",
-    "rating": 2.8,
-    "publisher": 284,
+    "name": "Principles of Protein–Protein Association",
+    "pages": 106,
+    "price": "107.75",
+    "rating": 3.2,
+    "publisher": 288,
     "pubdate": "2019-06-01",
     "authors": [
-      11212
+      11217
     ]
   }
 },
 {
   "model": "ann_agg.book",
-  "pk": 1834,
+  "pk": 1839,
   "fields": {
-    "name": "Soft Biological Shells in Bioengineering",
-    "pages": 356,
-    "price": "134.67",
+    "name": "Entrepreneurship for Creative Scientists",
+    "pages": 647,
+    "price": "120.20",
     "rating": 3.2,
-    "publisher": 284,
+    "publisher": 287,
+    "pubdate": "2018-05-01",
+    "authors": [
+      11218
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1840,
+  "fields": {
+    "name": "Semiconductors (Second Edition) — Bonds and bands",
+    "pages": 280,
+    "price": "68.43",
+    "rating": 7.5,
+    "publisher": 288,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11219
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1841,
+  "fields": {
+    "name": "Differential Topology and Geometry with Applications to Physics",
+    "pages": 636,
+    "price": "21.20",
+    "rating": 6.3,
+    "publisher": 288,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11220
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1842,
+  "fields": {
+    "name": "Modeling and Analysis of Eclipsing Binary Stars — The theory and design principles of PHOEBE",
+    "pages": 168,
+    "price": "149.67",
+    "rating": 8.0,
+    "publisher": 286,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11221
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1843,
+  "fields": {
+    "name": "Cold Plasma Cancer Therapy",
+    "pages": 420,
+    "price": "54.00",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2019-03-01",
+    "authors": [
+      11222
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1844,
+  "fields": {
+    "name": "Semiconductors — Bonds and bands",
+    "pages": 199,
+    "price": "82.00",
+    "rating": 10.0,
+    "publisher": 288,
+    "pubdate": "2013-09-01",
+    "authors": [
+      11219
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1845,
+  "fields": {
+    "name": "Neutron Stars, Black Holes and Gravitational Waves",
+    "pages": 426,
+    "price": "58.14",
+    "rating": 2.0,
+    "publisher": 286,
+    "pubdate": "2019-04-01",
+    "authors": [
+      11223
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1846,
+  "fields": {
+    "name": "Extreme-Temperature and Harsh-Environment Electronics — Physics, technology and applications",
+    "pages": 120,
+    "price": "30.25",
+    "rating": 3.0,
+    "publisher": 286,
+    "pubdate": "2017-03-01",
+    "authors": [
+      11224
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1847,
+  "fields": {
+    "name": "Time-Domain Studies of the Andromeda Galaxy",
+    "pages": 194,
+    "price": "113.00",
+    "rating": 3.4,
+    "publisher": 286,
+    "pubdate": "2019-09-01",
+    "authors": [
+      11225
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1848,
+  "fields": {
+    "name": "Sterile Neutrino Dark Matter",
+    "pages": 453,
+    "price": "36.12",
+    "rating": 4.3,
+    "publisher": 286,
+    "pubdate": "2017-03-01",
+    "authors": [
+      11226
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1849,
+  "fields": {
+    "name": "The Physics and Art of Photography, Volume 3 — Detectors and the meaning of digital",
+    "pages": 282,
+    "price": "76.62",
+    "rating": 4.2,
+    "publisher": 287,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11227
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1850,
+  "fields": {
+    "name": "Earthquakes — The sound of multi-modal waves",
+    "pages": 263,
+    "price": "205.50",
+    "rating": 1.8,
+    "publisher": 286,
+    "pubdate": "2016-06-01",
+    "authors": [
+      11228
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1851,
+  "fields": {
+    "name": "Mechanics of Biological Systems — Introduction to mechanobiology and experimental techniques",
+    "pages": 521,
+    "price": "27.12",
+    "rating": 3.2,
+    "publisher": 286,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11229
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1852,
+  "fields": {
+    "name": "Turbulence and Instabilities in Magnetised Plasmas, Volume 1 — Fluid drift turbulence",
+    "pages": 696,
+    "price": "37.50",
+    "rating": 4.3,
+    "publisher": 286,
+    "pubdate": "2019-03-02",
+    "authors": [
+      11230
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1853,
+  "fields": {
+    "name": "The Melencolia Manifesto",
+    "pages": 478,
+    "price": "68.60",
+    "rating": 8.0,
+    "publisher": 287,
+    "pubdate": "2016-12-01",
+    "authors": [
+      11231
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1854,
+  "fields": {
+    "name": "The Wigner Function in Science and Technology",
+    "pages": 191,
+    "price": "281.00",
+    "rating": 2.2,
+    "publisher": 286,
+    "pubdate": "2018-11-01",
+    "authors": [
+      11219
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1855,
+  "fields": {
+    "name": "New Technologies for Smart Grid Operation",
+    "pages": 108,
+    "price": "17.57",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2015-02-01",
+    "authors": [
+      11232
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1856,
+  "fields": {
+    "name": "Physics of Cancer: Second edition, volume 1 — Interplay between tumor biology, inflammation and cell mechanics",
+    "pages": 493,
+    "price": "133.33",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2018-10-01",
+    "authors": [
+      11233
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1857,
+  "fields": {
+    "name": "Energy-Smart Buildings — Design, construction and monitoring of buildings for improved energy efficiency",
+    "pages": 168,
+    "price": "103.00",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2020-04-01",
+    "authors": [
+      11234
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1858,
+  "fields": {
+    "name": "Scientific Basis of the Royal College of Radiologists Fellowship (2nd Edition) — Illustrated questions and answers",
+    "pages": 289,
+    "price": "26.75",
+    "rating": 7.5,
+    "publisher": 288,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11235
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1859,
+  "fields": {
+    "name": "Pipelined Analog to Digital Converter and Fault Diagnosis",
+    "pages": 449,
+    "price": "23.00",
+    "rating": 5.5,
+    "publisher": 286,
+    "pubdate": "2020-03-01",
+    "authors": [
+      11236
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1860,
+  "fields": {
+    "name": "Electrostatic Phenomena on Planetary Surfaces",
+    "pages": 227,
+    "price": "99.00",
+    "rating": 7.5,
+    "publisher": 286,
+    "pubdate": "2017-02-01",
+    "authors": [
+      11237
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1861,
+  "fields": {
+    "name": "Principles of Statistical Physics and Numerical Modeling",
+    "pages": 573,
+    "price": "97.33",
+    "rating": 2.8,
+    "publisher": 286,
+    "pubdate": "2018-08-01",
+    "authors": [
+      11238
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1862,
+  "fields": {
+    "name": "The Most Interesting Galaxies in the Universe",
+    "pages": 328,
+    "price": "23.80",
+    "rating": 3.0,
+    "publisher": 287,
+    "pubdate": "2018-09-01",
+    "authors": [
+      11239
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1863,
+  "fields": {
+    "name": "Introduction to Pharmaceutical Biotechnology, Volume 3 — Animal tissue culture and biopharmaceuticals",
+    "pages": 385,
+    "price": "99.29",
+    "rating": 8.0,
+    "publisher": 288,
+    "pubdate": "2019-03-01",
+    "authors": [
+      11240
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1864,
+  "fields": {
+    "name": "Dimensional Analysis — The principle of similitude",
+    "pages": 157,
+    "price": "93.71",
+    "rating": 1.8,
+    "publisher": 286,
+    "pubdate": "2019-10-02",
+    "authors": [
+      11241
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1865,
+  "fields": {
+    "name": "An Introduction to Liquid Crystals",
+    "pages": 574,
+    "price": "41.12",
+    "rating": 3.8,
+    "publisher": 288,
+    "pubdate": "2019-09-01",
+    "authors": [
+      11242
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1866,
+  "fields": {
+    "name": "Lectures on the Physics of Extreme States of Matter",
+    "pages": 333,
+    "price": "139.50",
+    "rating": 4.2,
+    "publisher": 288,
+    "pubdate": "2019-08-01",
+    "authors": [
+      11243
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1867,
+  "fields": {
+    "name": "Technical Fundamentals of Radiology and CT",
+    "pages": 339,
+    "price": "86.67",
+    "rating": 2.8,
+    "publisher": 286,
+    "pubdate": "2016-05-01",
+    "authors": [
+      11244
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1868,
+  "fields": {
+    "name": "Dark Matter in the Universe",
+    "pages": 487,
+    "price": "67.75",
+    "rating": 4.2,
+    "publisher": 286,
+    "pubdate": "2015-10-01",
+    "authors": [
+      11245
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1869,
+  "fields": {
+    "name": "Introductory Notes on Planetary Science — The solar system, exoplanets and planet formation",
+    "pages": 585,
+    "price": "156.00",
+    "rating": 5.5,
+    "publisher": 288,
+    "pubdate": "2020-12-01",
+    "authors": [
+      11246
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1870,
+  "fields": {
+    "name": "Gamma-ray Burst Correlations — Current status and open questions",
+    "pages": 416,
+    "price": "73.20",
+    "rating": 6.0,
+    "publisher": 286,
+    "pubdate": "2019-08-01",
+    "authors": [
+      11247
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1871,
+  "fields": {
+    "name": "Some Critical Questions in Biological Physics — A guided tour around the bugbears",
+    "pages": 500,
+    "price": "59.00",
+    "rating": 3.4,
+    "publisher": 286,
+    "pubdate": "2017-09-01",
+    "authors": [
+      11248
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1872,
+  "fields": {
+    "name": "Nuclear Materials Science (Second Edition)",
+    "pages": 389,
+    "price": "87.50",
+    "rating": 2.6,
+    "publisher": 288,
+    "pubdate": "2020-11-01",
+    "authors": [
+      11249
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1873,
+  "fields": {
+    "name": "An Introduction to Planetary Nebulae",
+    "pages": 109,
+    "price": "39.00",
+    "rating": 10.0,
+    "publisher": 288,
+    "pubdate": "2018-05-01",
+    "authors": [
+      11250
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1874,
+  "fields": {
+    "name": "Searching for Dark Matter with Cosmic Gamma Rays",
+    "pages": 471,
+    "price": "56.62",
+    "rating": 5.5,
+    "publisher": 286,
+    "pubdate": "2016-09-01",
+    "authors": [
+      11251
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1875,
+  "fields": {
+    "name": "Excel® VBA for Physicists — A Primer",
+    "pages": 418,
+    "price": "109.40",
+    "rating": 7.0,
+    "publisher": 288,
+    "pubdate": "2016-12-01",
+    "authors": [
+      11252
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1876,
+  "fields": {
+    "name": "A Handbook of Mathematical Methods and Problem-Solving Tools for Introductory Physics",
+    "pages": 636,
+    "price": "62.40",
+    "rating": 2.0,
+    "publisher": 288,
+    "pubdate": "2016-11-01",
+    "authors": [
+      11253
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1877,
+  "fields": {
+    "name": "Fluids in Porous Media — Transport and phase changes",
+    "pages": 487,
+    "price": "168.33",
+    "rating": 2.8,
+    "publisher": 286,
+    "pubdate": "2016-09-01",
+    "authors": [
+      11254
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1878,
+  "fields": {
+    "name": "Non-Instantaneous Impulsive Differential Equations — Basic theory and computation",
+    "pages": 659,
+    "price": "93.00",
+    "rating": 10.0,
+    "publisher": 286,
+    "pubdate": "2018-11-01",
+    "authors": [
+      11255
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1879,
+  "fields": {
+    "name": "Techniques of Classical Mechanics — From Lagrangian to Newtonian mechanics",
+    "pages": 180,
+    "price": "86.40",
+    "rating": 5.5,
+    "publisher": 288,
+    "pubdate": "2019-01-01",
+    "authors": [
+      11256
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1880,
+  "fields": {
+    "name": "Transport in Semiconductor Mesoscopic Devices",
+    "pages": 467,
+    "price": "50.43",
+    "rating": 4.3,
+    "publisher": 286,
+    "pubdate": "2015-08-01",
+    "authors": [
+      11219
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1881,
+  "fields": {
+    "name": "Global Approaches to Environmental Management on Military Training Ranges",
+    "pages": 618,
+    "price": "111.20",
+    "rating": 6.7,
+    "publisher": 286,
+    "pubdate": "2019-12-01",
+    "authors": [
+      11257
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1882,
+  "fields": {
+    "name": "Physics of Digital Photography",
+    "pages": 396,
+    "price": "126.25",
+    "rating": 6.3,
+    "publisher": 286,
+    "pubdate": "2017-04-01",
+    "authors": [
+      11258
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1883,
+  "fields": {
+    "name": "Ionization and Ion Transport — A primer for the study of non-equilibrium, low-temperature gas discharges and plasmas",
+    "pages": 119,
+    "price": "58.00",
+    "rating": 2.8,
+    "publisher": 286,
+    "pubdate": "2018-04-01",
+    "authors": [
+      11259
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1884,
+  "fields": {
+    "name": "Relativistic Quantum Field Theory, Volume 2 — Path integral formalism",
+    "pages": 619,
+    "price": "140.33",
+    "rating": 6.7,
+    "publisher": 288,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11260
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1885,
+  "fields": {
+    "name": "Smart External Stimulus-Responsive Nanocarriers for Drug and Gene Delivery, Second edition",
+    "pages": 510,
+    "price": "73.88",
+    "rating": 2.4,
+    "publisher": 286,
+    "pubdate": "2019-08-02",
+    "authors": [
+      11261
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1886,
+  "fields": {
+    "name": "Physics in Food Manufacturing — Case studies in fundamental and applied research",
+    "pages": 326,
+    "price": "131.00",
+    "rating": 2.0,
+    "publisher": 286,
+    "pubdate": "2020-06-01",
+    "authors": [
+      11262
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1887,
+  "fields": {
+    "name": "Classical Electrodynamics: Lecture Notes, Volume 3 — Lecture notes",
+    "pages": 688,
+    "price": "115.00",
+    "rating": 3.2,
+    "publisher": 288,
+    "pubdate": "2019-06-01",
+    "authors": [
+      11263
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1888,
+  "fields": {
+    "name": "An Introduction to the Gas Phase",
+    "pages": 674,
+    "price": "89.20",
+    "rating": 2.4,
+    "publisher": 288,
+    "pubdate": "2017-11-01",
+    "authors": [
+      11264
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1889,
+  "fields": {
+    "name": "Cold Atoms and Molecules",
+    "pages": 347,
+    "price": "102.20",
+    "rating": 7.5,
+    "publisher": 286,
+    "pubdate": "2020-06-01",
+    "authors": [
+      11265
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1890,
+  "fields": {
+    "name": "Classical Mechanics, Volume 3 — Newton’s laws and uniform circular motion",
+    "pages": 201,
+    "price": "101.20",
+    "rating": 5.7,
+    "publisher": 288,
     "pubdate": "2019-07-01",
     "authors": [
-      11213
+      11242
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1682,
+  "model": "ann_agg.book",
+  "pk": 1891,
   "fields": {
-    "name": "AAS: Education, Outreach and Heritage Store",
-    "books": [
-      1705,
-      1708,
-      1710,
-      1712,
-      1714,
-      1718,
-      1721,
-      1723,
-      1727,
-      1728,
-      1733,
-      1735,
-      1736,
-      1737,
-      1738,
-      1739,
-      1740,
-      1744,
-      1746,
-      1747,
-      1752,
-      1753,
-      1754,
-      1755,
-      1757,
-      1759,
-      1761,
-      1763,
-      1764,
-      1767,
-      1768,
-      1770,
-      1772,
-      1773,
-      1775,
-      1778,
-      1782,
-      1786,
-      1788,
-      1795,
-      1809,
-      1813
+    "name": "Airborne Maritime Surveillance Radar, Volume 1 — British ASV radars in WWII 1939–1945",
+    "pages": 151,
+    "price": "43.29",
+    "rating": 3.6,
+    "publisher": 287,
+    "pubdate": "2018-08-01",
+    "authors": [
+      11216
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1683,
+  "model": "ann_agg.book",
+  "pk": 1892,
   "fields": {
-    "name": "Condensed matter Store",
-    "books": [
-      1718,
-      1719,
-      1722,
-      1725,
-      1726,
-      1727,
-      1728,
-      1731,
-      1733,
-      1734,
-      1735,
-      1736,
-      1737,
-      1738,
-      1740,
-      1742,
-      1746,
-      1749,
-      1752,
-      1756,
-      1761,
-      1764,
-      1765,
-      1766,
-      1767,
-      1768,
-      1770,
-      1773,
-      1775,
-      1776,
-      1780,
-      1782,
-      1785,
-      1787,
-      1795,
-      1799,
-      1805,
-      1811,
-      1813
+    "name": "Multimodality Imaging of the Heart, Lungs and Peripheral Organs — Deep learning applications",
+    "pages": 131,
+    "price": "71.50",
+    "rating": 9.0,
+    "publisher": 286,
+    "pubdate": "2020-03-01",
+    "authors": [
+      11266
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1684,
+  "model": "ann_agg.book",
+  "pk": 1893,
   "fields": {
-    "name": "Biomedical engineering Store",
-    "books": [
-      1705,
-      1707,
-      1717,
-      1720,
-      1722,
-      1725,
-      1726,
-      1728,
-      1732,
-      1736,
-      1737,
-      1740,
-      1741,
-      1744,
-      1746,
-      1756,
-      1759,
-      1760,
-      1761,
-      1762,
-      1764,
-      1765,
-      1767,
-      1768,
-      1769,
-      1770,
-      1774,
-      1775,
-      1776,
-      1777,
-      1778,
-      1779,
-      1780,
-      1787,
-      1793,
-      1794,
-      1795,
-      1797,
-      1804
+    "name": "Magnesium-Based Nanocomposites — Advances and applications",
+    "pages": 290,
+    "price": "234.50",
+    "rating": 9.0,
+    "publisher": 286,
+    "pubdate": "2020-11-01",
+    "authors": [
+      11267
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1685,
+  "model": "ann_agg.book",
+  "pk": 1894,
   "fields": {
-    "name": "Medical physics and biophysics Store",
-    "books": [
-      1704,
-      1705,
-      1706,
-      1707,
-      1708,
-      1711,
-      1716,
-      1718,
-      1719,
-      1720,
-      1724,
-      1727,
-      1730,
-      1732,
-      1735,
-      1739,
-      1743,
-      1751,
-      1754,
-      1755,
-      1758,
-      1763,
-      1764,
-      1766,
-      1767,
-      1769,
-      1770,
-      1772,
-      1775,
-      1778,
-      1780,
-      1781,
-      1782,
-      1783,
-      1789,
-      1797,
-      1801,
-      1806,
-      1810,
-      1812
+    "name": "From Complex to Simple — Interdisciplinary stochastic models",
+    "pages": 678,
+    "price": "121.25",
+    "rating": 5.7,
+    "publisher": 286,
+    "pubdate": "2018-08-01",
+    "authors": [
+      11268
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1686,
+  "model": "ann_agg.book",
+  "pk": 1895,
   "fields": {
-    "name": "Optics and photonics Store",
-    "books": [
-      1705,
-      1707,
-      1711,
-      1713,
-      1720,
-      1723,
-      1726,
-      1727,
-      1728,
-      1730,
-      1734,
-      1736,
-      1737,
-      1738,
-      1739,
-      1740,
-      1741,
-      1743,
-      1744,
-      1746,
-      1748,
-      1750,
-      1753,
-      1754,
-      1755,
-      1760,
-      1761,
-      1764,
-      1766,
-      1769,
-      1775,
-      1776,
-      1781,
-      1785,
-      1789,
-      1790,
-      1791,
-      1795,
-      1801,
-      1802,
-      1806
+    "name": "Modern Interferometry for Length Metrology — Exploring limits and novel techniques",
+    "pages": 282,
+    "price": "31.00",
+    "rating": 1.6,
+    "publisher": 286,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11269
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1687,
+  "model": "ann_agg.book",
+  "pk": 1896,
   "fields": {
-    "name": "Mathematics and computation Store",
-    "books": [
-      1705,
-      1710,
-      1711,
-      1721,
-      1724,
-      1726,
-      1727,
-      1728,
-      1729,
-      1731,
-      1732,
-      1734,
-      1735,
-      1736,
-      1739,
-      1740,
-      1744,
-      1748,
-      1750,
-      1752,
-      1756,
-      1758,
-      1761,
-      1765,
-      1767,
-      1769,
-      1774,
-      1777,
-      1779,
-      1781,
-      1782,
-      1785,
-      1786,
-      1789,
-      1791,
-      1797,
-      1806,
-      1807,
-      1810,
-      1812
+    "name": "A Modern Course in Quantum Field Theory, Volume 2 — Advanced topics",
+    "pages": 129,
+    "price": "66.38",
+    "rating": 3.0,
+    "publisher": 288,
+    "pubdate": "2019-05-01",
+    "authors": [
+      11270
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1688,
+  "model": "ann_agg.book",
+  "pk": 1897,
   "fields": {
-    "name": "Environment and energy Store",
-    "books": [
-      1705,
-      1718,
-      1728,
-      1733,
-      1736,
-      1737,
-      1739,
-      1743,
-      1745,
-      1747,
-      1748,
-      1750,
-      1754,
-      1755,
-      1757,
-      1758,
-      1761,
-      1763,
-      1764,
-      1765,
-      1768,
-      1770,
-      1771,
-      1773,
-      1774,
-      1775,
-      1778,
-      1781,
-      1782,
-      1785,
-      1788,
-      1789,
-      1791,
-      1795,
-      1797,
-      1800,
-      1801,
-      1804,
-      1806,
-      1810
+    "name": "Set Theory for Physicists",
+    "pages": 128,
+    "price": "210.67",
+    "rating": 3.0,
+    "publisher": 286,
+    "pubdate": "2019-05-01",
+    "authors": [
+      11271
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1689,
+  "model": "ann_agg.book",
+  "pk": 1898,
   "fields": {
-    "name": "Instrumentation and measurement Store",
-    "books": [
-      1707,
-      1708,
-      1709,
-      1710,
-      1712,
-      1713,
-      1717,
-      1720,
-      1723,
-      1726,
-      1728,
-      1738,
-      1739,
-      1741,
-      1744,
-      1749,
-      1751,
-      1752,
-      1753,
-      1754,
-      1756,
-      1759,
-      1760,
-      1762,
-      1763,
-      1765,
-      1767,
-      1768,
-      1769,
-      1770,
-      1771,
-      1772,
-      1777,
-      1780,
-      1784,
-      1786,
-      1790,
-      1791,
-      1799,
-      1801,
-      1802,
-      1803
+    "name": "Generalized Hypergeometric Functions — Transformations and group theoretical aspects",
+    "pages": 468,
+    "price": "107.67",
+    "rating": 3.3,
+    "publisher": 286,
+    "pubdate": "2018-10-01",
+    "authors": [
+      11272
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1690,
+  "model": "ann_agg.book",
+  "pk": 1899,
   "fields": {
-    "name": "Astronomy and astrophysics Store",
-    "books": [
-      1704,
-      1714,
-      1715,
-      1722,
-      1724,
-      1725,
-      1728,
-      1731,
-      1733,
-      1735,
-      1736,
-      1739,
-      1740,
-      1748,
-      1749,
-      1751,
-      1752,
-      1756,
-      1763,
-      1764,
-      1767,
-      1769,
-      1771,
-      1772,
-      1773,
-      1774,
-      1775,
-      1776,
-      1778,
-      1781,
-      1782,
-      1783,
-      1784,
-      1785,
-      1787,
-      1789,
-      1798,
-      1808,
-      1810,
-      1812
+    "name": "Causality Rules — A light treatise on dispersion relations and sum rules",
+    "pages": 256,
+    "price": "169.75",
+    "rating": 3.2,
+    "publisher": 286,
+    "pubdate": "2018-07-01",
+    "authors": [
+      11273
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1691,
+  "model": "ann_agg.book",
+  "pk": 1900,
   "fields": {
-    "name": "Materials Store",
-    "books": [
-      1705,
-      1707,
-      1709,
-      1712,
-      1719,
-      1725,
-      1726,
-      1728,
-      1730,
-      1732,
-      1735,
-      1736,
-      1738,
-      1749,
-      1752,
-      1755,
-      1759,
-      1764,
-      1765,
-      1768,
-      1770,
-      1777,
-      1781,
-      1783,
-      1784,
-      1785,
-      1788,
-      1789,
-      1791,
-      1795,
-      1797,
-      1800,
-      1801,
-      1805,
-      1806,
-      1808,
-      1809,
-      1811
+    "name": "Essential Semiconductor Laser Device Physics",
+    "pages": 280,
+    "price": "54.33",
+    "rating": 3.8,
+    "publisher": 288,
+    "pubdate": "2018-07-01",
+    "authors": [
+      11274
     ]
   }
 },
 {
-  "model": "ann_agg.store",
-  "pk": 1692,
+  "model": "ann_agg.book",
+  "pk": 1901,
   "fields": {
-    "name": "Culture, history and society Store",
-    "books": [
-      1705,
-      1708,
-      1716,
-      1725,
-      1728,
-      1730,
-      1731,
-      1734,
-      1735,
-      1737,
-      1742,
-      1745,
-      1749,
-      1757,
-      1758,
-      1759,
-      1761,
-      1762,
-      1765,
-      1766,
-      1769,
-      1770,
-      1772,
-      1773,
-      1775,
-      1776,
-      1777,
-      1778,
-      1780,
-      1783,
-      1785,
-      1787,
-      1789,
-      1790,
-      1795,
-      1804,
-      1812
+    "name": "Bionanomaterials — Fundamentals and biomedical applications",
+    "pages": 207,
+    "price": "156.75",
+    "rating": 3.5,
+    "publisher": 286,
+    "pubdate": "2019-07-02",
+    "authors": [
+      11275
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1902,
+  "fields": {
+    "name": "Stigmatic Optics",
+    "pages": 351,
+    "price": "19.83",
+    "rating": 3.6,
+    "publisher": 286,
+    "pubdate": "2020-09-01",
+    "authors": [
+      11276
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1903,
+  "fields": {
+    "name": "Basic Surfaces and their Analysis",
+    "pages": 153,
+    "price": "18.75",
+    "rating": 3.6,
+    "publisher": 286,
+    "pubdate": "2018-06-01",
+    "authors": [
+      11277
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1904,
+  "fields": {
+    "name": "Science in the Arena — Explanations and analyses of performances and phenomena in sport",
+    "pages": 483,
+    "price": "103.67",
+    "rating": 6.7,
+    "publisher": 287,
+    "pubdate": "2019-01-01",
+    "authors": [
+      11278
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1905,
+  "fields": {
+    "name": "Common Envelope Evolution",
+    "pages": 217,
+    "price": "227.00",
+    "rating": 7.5,
+    "publisher": 286,
+    "pubdate": "2020-12-01",
+    "authors": [
+      11279
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1906,
+  "fields": {
+    "name": "Multiple Scattering Theory — Electronic structure of solids",
+    "pages": 101,
+    "price": "27.00",
+    "rating": 9.0,
+    "publisher": 286,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11280
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1907,
+  "fields": {
+    "name": "The Embedding Method for Electronic Structure",
+    "pages": 415,
+    "price": "63.33",
+    "rating": 3.0,
+    "publisher": 286,
+    "pubdate": "2015-12-01",
+    "authors": [
+      11281
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1908,
+  "fields": {
+    "name": "Crystal Engineering — How molecules build solids",
+    "pages": 489,
+    "price": "116.33",
+    "rating": 2.5,
+    "publisher": 287,
+    "pubdate": "2017-09-01",
+    "authors": [
+      11241
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1909,
+  "fields": {
+    "name": "Wide Bandgap Semiconductor-Based Electronics",
+    "pages": 543,
+    "price": "24.75",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2020-09-01",
+    "authors": [
+      11282
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1910,
+  "fields": {
+    "name": "A Mathematically Coherent Quantum Gravity",
+    "pages": 304,
+    "price": "343.00",
+    "rating": 4.5,
+    "publisher": 286,
+    "pubdate": "2020-09-01",
+    "authors": [
+      11283
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1911,
+  "fields": {
+    "name": "Understanding the Magic of the Bicycle — Basic scientific explanations to the two-wheeler's mysterious and fascinating behavior",
+    "pages": 262,
+    "price": "106.00",
+    "rating": 9.5,
+    "publisher": 287,
+    "pubdate": "2017-01-01",
+    "authors": [
+      11284
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1912,
+  "fields": {
+    "name": "Gas-Phase Chemistry in Space — From elementary particles to complex organic molecules",
+    "pages": 308,
+    "price": "52.67",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2019-02-01",
+    "authors": [
+      11285
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1913,
+  "fields": {
+    "name": "Ahead of the Curve, Volume 1 — Hidden breakthroughs in the biosciences",
+    "pages": 539,
+    "price": "76.75",
+    "rating": 2.6,
+    "publisher": 286,
+    "pubdate": "2016-12-01",
+    "authors": [
+      11286
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1914,
+  "fields": {
+    "name": "Hadronic Jets — An introduction",
+    "pages": 355,
+    "price": "17.67",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2016-02-01",
+    "authors": [
+      11287
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1915,
+  "fields": {
+    "name": "Principles and Applications of Fourier Optics",
+    "pages": 633,
+    "price": "153.75",
+    "rating": 9.0,
+    "publisher": 288,
+    "pubdate": "2014-08-01",
+    "authors": [
+      11288
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1916,
+  "fields": {
+    "name": "Lectures on Selected Topics in Mathematical Physics — Further applications of Lie theory",
+    "pages": 360,
+    "price": "58.43",
+    "rating": 2.8,
+    "publisher": 288,
+    "pubdate": "2019-03-01",
+    "authors": [
+      11289
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1917,
+  "fields": {
+    "name": "A Modern Course in Quantum Field Theory, Volume 1 — Fundamentals",
+    "pages": 130,
+    "price": "72.88",
+    "rating": 4.0,
+    "publisher": 288,
+    "pubdate": "2019-05-01",
+    "authors": [
+      11270
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1918,
+  "fields": {
+    "name": "A Pedagogical Introduction to Electroweak Baryogenesis",
+    "pages": 271,
+    "price": "65.25",
+    "rating": 6.7,
+    "publisher": 286,
+    "pubdate": "2016-12-01",
+    "authors": [
+      11290
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1919,
+  "fields": {
+    "name": "Theories of Matter, Space and Time, Volume 2 — Quantum Theories",
+    "pages": 127,
+    "price": "31.67",
+    "rating": 3.6,
+    "publisher": 288,
+    "pubdate": "2018-06-01",
+    "authors": [
+      11291
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1920,
+  "fields": {
+    "name": "The Safe Use of Cryogenic Technologies — A handbook for best practice and training",
+    "pages": 200,
+    "price": "75.00",
+    "rating": 6.7,
+    "publisher": 286,
+    "pubdate": "2019-05-02",
+    "authors": [
+      11292
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1921,
+  "fields": {
+    "name": "Molecular Insights for Drug-Delivery System Design for Multiple Myeloma — A nano/micro approach",
+    "pages": 122,
+    "price": "40.00",
+    "rating": 7.0,
+    "publisher": 286,
+    "pubdate": "2019-09-02",
+    "authors": [
+      11293
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1922,
+  "fields": {
+    "name": "Recent Advances in Innovative Magnetic Nanomaterials for Cancer Theranostics",
+    "pages": 169,
+    "price": "204.50",
+    "rating": 4.5,
+    "publisher": 286,
+    "pubdate": "2019-10-01",
+    "authors": [
+      11294
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1923,
+  "fields": {
+    "name": "Key Nuclear Reaction Experiments — Discoveries and consequences",
+    "pages": 211,
+    "price": "95.33",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2015-10-01",
+    "authors": [
+      11295
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1924,
+  "fields": {
+    "name": "Warm Dense Matter — Laboratory generation and diagnosis",
+    "pages": 353,
+    "price": "54.83",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2019-04-02",
+    "authors": [
+      11296
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1925,
+  "fields": {
+    "name": "Time and Time Again — Determination of longitude at seain the 17th Century",
+    "pages": 376,
+    "price": "322.00",
+    "rating": 3.5,
+    "publisher": 287,
+    "pubdate": "2017-11-01",
+    "authors": [
+      11297
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1926,
+  "fields": {
+    "name": "Modeling and Computation in Vibration Problems, Volume 2 — Soft computing and uncertainty",
+    "pages": 104,
+    "price": "54.40",
+    "rating": 9.5,
+    "publisher": 286,
+    "pubdate": "2019-09-02",
+    "authors": [
+      11298
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1927,
+  "fields": {
+    "name": "Creating Materials with a Desired Refraction Coefficient (Second Edition)",
+    "pages": 394,
+    "price": "68.67",
+    "rating": 2.8,
+    "publisher": 286,
+    "pubdate": "2020-07-01",
+    "authors": [
+      11299
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1928,
+  "fields": {
+    "name": "Physics of Digital Photography (Second Edition)",
+    "pages": 426,
+    "price": "291.50",
+    "rating": 2.5,
+    "publisher": 286,
+    "pubdate": "2020-10-01",
+    "authors": [
+      11258
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1929,
+  "fields": {
+    "name": "The Cosmic Evolution of Galaxy Structure",
+    "pages": 315,
+    "price": "51.00",
+    "rating": 8.0,
+    "publisher": 286,
+    "pubdate": "2020-12-01",
+    "authors": [
+      11300
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1930,
+  "fields": {
+    "name": "Spiral Structure in Galaxies",
+    "pages": 128,
+    "price": "31.50",
+    "rating": 6.3,
+    "publisher": 286,
+    "pubdate": "2017-06-01",
+    "authors": [
+      11245
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1931,
+  "fields": {
+    "name": "Plasma Modeling — Methods and applications",
+    "pages": 542,
+    "price": "90.20",
+    "rating": 9.0,
+    "publisher": 286,
+    "pubdate": "2016-12-01",
+    "authors": [
+      11301
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1932,
+  "fields": {
+    "name": "Physics of Cancer, Volume 3 (Second Edition) — Experimental biophysical techniques in cancer research",
+    "pages": 574,
+    "price": "52.33",
+    "rating": 3.5,
+    "publisher": 286,
+    "pubdate": "2019-07-02",
+    "authors": [
+      11233
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1933,
+  "fields": {
+    "name": "Single Molecule Biophysics and Poisson Process Approach to Statistical Mechanics",
+    "pages": 668,
+    "price": "99.67",
+    "rating": 5.7,
+    "publisher": 286,
+    "pubdate": "2016-04-01",
+    "authors": [
+      11302
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1934,
+  "fields": {
+    "name": "Modelling and Design Photonics by Examples Using Matlab®",
+    "pages": 500,
+    "price": "56.50",
+    "rating": 2.2,
+    "publisher": 286,
+    "pubdate": "2019-07-02",
+    "authors": [
+      11303
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1935,
+  "fields": {
+    "name": "Silicon Photonics — Electromagnetic theory",
+    "pages": 373,
+    "price": "40.25",
+    "rating": 6.5,
+    "publisher": 286,
+    "pubdate": "2017-12-01",
+    "authors": [
+      11304
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1936,
+  "fields": {
+    "name": "Imaging Modalities for Biological and Preclinical Research: A Compendium, Volume 2 — Preclinical and multimodality imaging",
+    "pages": 122,
+    "price": "107.25",
+    "rating": 1.8,
+    "publisher": 286,
+    "pubdate": "2019-05-02",
+    "authors": [
+      11305
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1937,
+  "fields": {
+    "name": "Single-particle Cryo-EM of Biological Macromolecules",
+    "pages": 352,
+    "price": "85.14",
+    "rating": 3.8,
+    "publisher": 286,
+    "pubdate": "2019-05-02",
+    "authors": [
+      11306
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1938,
+  "fields": {
+    "name": "Biophotonics: Vibrational Spectroscopic Diagnostics",
+    "pages": 127,
+    "price": "55.50",
+    "rating": 1.6,
+    "publisher": 286,
+    "pubdate": "2016-02-01",
+    "authors": [
+      11307
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1939,
+  "fields": {
+    "name": "String Theory and the Real World",
+    "pages": 409,
+    "price": "116.33",
+    "rating": 2.2,
+    "publisher": 287,
+    "pubdate": "2017-03-01",
+    "authors": [
+      11308
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1940,
+  "fields": {
+    "name": "Physics of Shock and Impact, Volume 1 — Fundamentals and dynamic failure",
+    "pages": 577,
+    "price": "82.38",
+    "rating": 2.7,
+    "publisher": 286,
+    "pubdate": "2017-12-01",
+    "authors": [
+      11309
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1941,
+  "fields": {
+    "name": "Relativistic Quantum Field Theory, Volume 3 — Applications of quantum field theory",
+    "pages": 504,
+    "price": "15.14",
+    "rating": 3.0,
+    "publisher": 288,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11260
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1942,
+  "fields": {
+    "name": "Mott Insulators — Physics and applications",
+    "pages": 693,
+    "price": "51.40",
+    "rating": 4.0,
+    "publisher": 288,
+    "pubdate": "2019-07-01",
+    "authors": [
+      11310
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1943,
+  "fields": {
+    "name": "Biophysical and Chemical Properties of Collagen: Biomedical Applications",
+    "pages": 586,
+    "price": "62.00",
+    "rating": 6.0,
+    "publisher": 286,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11311
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1944,
+  "fields": {
+    "name": "Ultrasound-Mediated Imaging of Soft Materials",
+    "pages": 410,
+    "price": "54.25",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2018-12-01",
+    "authors": [
+      11312
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1945,
+  "fields": {
+    "name": "Physics and Video Analysis",
+    "pages": 451,
+    "price": "58.50",
+    "rating": 5.3,
+    "publisher": 287,
+    "pubdate": "2016-04-01",
+    "authors": [
+      11313
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1946,
+  "fields": {
+    "name": "Spectroscopic Probes of Quantum Matter",
+    "pages": 559,
+    "price": "87.75",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2018-11-01",
+    "authors": [
+      11314
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1947,
+  "fields": {
+    "name": "Resonant Tunneling Diode Photonics — Devices and applications",
+    "pages": 553,
+    "price": "65.50",
+    "rating": 4.0,
+    "publisher": 286,
+    "pubdate": "2019-11-01",
+    "authors": [
+      11315
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1948,
+  "fields": {
+    "name": "Super Optical Biosensors",
+    "pages": 559,
+    "price": "67.00",
+    "rating": 3.4,
+    "publisher": 286,
+    "pubdate": "2019-05-01",
+    "authors": [
+      11316
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1949,
+  "fields": {
+    "name": "Talking Renewables — A renewable energy primer for everyone",
+    "pages": 203,
+    "price": "85.67",
+    "rating": 3.2,
+    "publisher": 287,
+    "pubdate": "2018-03-01",
+    "authors": [
+      11317
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1950,
+  "fields": {
+    "name": "Maple — A primer",
+    "pages": 674,
+    "price": "143.00",
+    "rating": 3.5,
+    "publisher": 288,
+    "pubdate": "2019-05-01",
+    "authors": [
+      11252
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1951,
+  "fields": {
+    "name": "Origins of Giant Planets, Volume 1 — Disks, dust, and planetesimals",
+    "pages": 642,
+    "price": "209.33",
+    "rating": 3.0,
+    "publisher": 286,
+    "pubdate": "2019-08-02",
+    "authors": [
+      11318
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1952,
+  "fields": {
+    "name": "Capture and Relaxation in Self-Assembled Semiconductor Quantum Dots — The dot and its environment",
+    "pages": 129,
+    "price": "40.00",
+    "rating": 1.8,
+    "publisher": 286,
+    "pubdate": "2016-02-01",
+    "authors": [
+      11319
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1953,
+  "fields": {
+    "name": "Flexible Electronics, Volume 3 — Energy devices and applications",
+    "pages": 455,
+    "price": "192.33",
+    "rating": 5.3,
+    "publisher": 288,
+    "pubdate": "2019-07-01",
+    "authors": [
+      11224
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1954,
+  "fields": {
+    "name": "B Factories",
+    "pages": 573,
+    "price": "232.50",
+    "rating": 9.5,
+    "publisher": 286,
+    "pubdate": "2019-04-01",
+    "authors": [
+      11320
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1955,
+  "fields": {
+    "name": "Algorithmic Information Theory for Physicists and Natural Scientists",
+    "pages": 536,
+    "price": "80.25",
+    "rating": 2.6,
+    "publisher": 286,
+    "pubdate": "2020-06-01",
+    "authors": [
+      11321
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1956,
+  "fields": {
+    "name": "Hypersonic Meteoroid Entry Physics",
+    "pages": 334,
+    "price": "23.17",
+    "rating": 5.3,
+    "publisher": 286,
+    "pubdate": "2019-03-01",
+    "authors": [
+      11301
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1957,
+  "fields": {
+    "name": "Optical Fiber Multiplexing and Emerging Techniques — SDM and OAM",
+    "pages": 337,
+    "price": "79.29",
+    "rating": 2.4,
+    "publisher": 286,
+    "pubdate": "2018-09-01",
+    "authors": [
+      11322
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1958,
+  "fields": {
+    "name": "Scientific Basis of the Royal College of Radiologists Fellowship — Illustrated questions and answers",
+    "pages": 575,
+    "price": "46.33",
+    "rating": 7.5,
+    "publisher": 288,
+    "pubdate": "2014-12-01",
+    "authors": [
+      11235
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1959,
+  "fields": {
+    "name": "A Brief Introduction to Topology and Differential Geometry in Condensed Matter Physics",
+    "pages": 274,
+    "price": "121.60",
+    "rating": 4.2,
+    "publisher": 286,
+    "pubdate": "2019-03-01",
+    "authors": [
+      11323
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1960,
+  "fields": {
+    "name": "Lens Design — Automatic and quasi-autonomous computational methods and techniques",
+    "pages": 603,
+    "price": "15.62",
+    "rating": 7.0,
+    "publisher": 286,
+    "pubdate": "2018-07-01",
+    "authors": [
+      11324
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1961,
+  "fields": {
+    "name": "Adventures with Lissajous Figures",
+    "pages": 508,
+    "price": "84.67",
+    "rating": 3.7,
+    "publisher": 286,
+    "pubdate": "2018-06-01",
+    "authors": [
+      11325
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1962,
+  "fields": {
+    "name": "Explicit Symmetry Breaking in Electrodynamic Systems and Electromagnetic Radiation",
+    "pages": 318,
+    "price": "88.20",
+    "rating": 8.5,
+    "publisher": 286,
+    "pubdate": "2016-04-01",
+    "authors": [
+      11326
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1963,
+  "fields": {
+    "name": "Medical and Dental Guidance Notes — Radiation protection in the clinical environment: IPEM Report 113",
+    "pages": 629,
+    "price": "139.40",
+    "rating": 2.6,
+    "publisher": 286,
+    "pubdate": "2019-07-02",
+    "authors": [
+      11327
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1964,
+  "fields": {
+    "name": "Energy Harvesting Properties of Electrospun Nanofibers",
+    "pages": 247,
+    "price": "217.00",
+    "rating": 5.7,
+    "publisher": 286,
+    "pubdate": "2019-12-01",
+    "authors": [
+      11328
+    ]
+  }
+},
+{
+  "model": "ann_agg.book",
+  "pk": 1965,
+  "fields": {
+    "name": "Spectroscopic Techniques for Archaeological and Cultural Heritage Research",
+    "pages": 278,
+    "price": "89.33",
+    "rating": 5.0,
+    "publisher": 286,
+    "pubdate": "2020-10-01",
+    "authors": [
+      11329
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1693,
+  "pk": 1705,
   "fields": {
     "name": "Quantum science Store",
     "books": [
-      1712,
-      1713,
-      1714,
-      1718,
-      1719,
-      1724,
-      1729,
-      1730,
-      1732,
-      1737,
-      1738,
-      1739,
-      1740,
-      1742,
-      1744,
-      1745,
-      1746,
-      1750,
-      1752,
-      1753,
-      1755,
-      1756,
-      1758,
-      1759,
-      1763,
-      1764,
-      1765,
-      1770,
-      1771,
-      1772,
-      1773,
-      1775,
-      1777,
-      1779,
-      1782,
-      1783,
-      1787,
-      1788,
-      1789,
-      1791,
-      1798,
-      1813
+      1835,
+      1836,
+      1840,
+      1843,
+      1849,
+      1857,
+      1859,
+      1863,
+      1864,
+      1865,
+      1867,
+      1875,
+      1878,
+      1882,
+      1886,
+      1887,
+      1890,
+      1891,
+      1894,
+      1898,
+      1901,
+      1902,
+      1904,
+      1910,
+      1912,
+      1917,
+      1925,
+      1926,
+      1928,
+      1929,
+      1931,
+      1933,
+      1936,
+      1940,
+      1952,
+      1953
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1694,
+  "pk": 1706,
   "fields": {
-    "name": "Classical physics Store",
+    "name": "Biomedical engineering Store",
     "books": [
-      1711,
-      1713,
-      1716,
-      1719,
-      1724,
-      1725,
-      1728,
-      1729,
-      1730,
-      1731,
-      1732,
-      1734,
-      1742,
-      1744,
-      1745,
-      1747,
-      1748,
-      1749,
-      1750,
-      1761,
-      1762,
-      1763,
-      1764,
-      1765,
-      1773,
-      1774,
-      1776,
-      1780,
-      1781,
-      1787,
-      1788,
-      1799,
-      1800,
-      1801,
-      1804,
-      1805,
-      1811,
-      1812
+      1835,
+      1836,
+      1837,
+      1838,
+      1845,
+      1848,
+      1850,
+      1852,
+      1854,
+      1856,
+      1861,
+      1862,
+      1864,
+      1866,
+      1867,
+      1871,
+      1878,
+      1879,
+      1882,
+      1883,
+      1884,
+      1885,
+      1892,
+      1895,
+      1899,
+      1900,
+      1909,
+      1910,
+      1913,
+      1917,
+      1920,
+      1921,
+      1926,
+      1929,
+      1931,
+      1933,
+      1943,
+      1948,
+      1954
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1695,
+  "pk": 1707,
   "fields": {
-    "name": "Plasmas Store",
+    "name": "Instrumentation and measurement Store",
     "books": [
-      1705,
-      1707,
-      1716,
-      1717,
-      1719,
-      1723,
-      1725,
-      1726,
-      1727,
-      1728,
-      1732,
-      1733,
-      1735,
-      1737,
-      1738,
-      1739,
-      1742,
-      1744,
-      1750,
-      1752,
-      1753,
-      1762,
-      1768,
-      1770,
-      1774,
-      1777,
-      1778,
-      1780,
-      1785,
-      1786,
-      1787,
-      1788,
-      1791,
-      1795,
-      1797,
-      1798,
-      1806,
-      1809,
-      1811,
-      1812
+      1838,
+      1843,
+      1848,
+      1853,
+      1855,
+      1857,
+      1858,
+      1860,
+      1861,
+      1866,
+      1872,
+      1879,
+      1882,
+      1887,
+      1891,
+      1893,
+      1895,
+      1897,
+      1902,
+      1904,
+      1909,
+      1910,
+      1911,
+      1914,
+      1916,
+      1921,
+      1925,
+      1926,
+      1929,
+      1934,
+      1936,
+      1940,
+      1943,
+      1945,
+      1947,
+      1948
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1696,
+  "pk": 1708,
   "fields": {
-    "name": "Atomic and molecular physics Store",
+    "name": "Medical physics and biophysics Store",
     "books": [
-      1712,
-      1713,
-      1715,
-      1724,
-      1730,
-      1731,
-      1733,
-      1734,
-      1737,
-      1739,
-      1740,
-      1741,
-      1742,
-      1745,
-      1747,
-      1748,
-      1749,
-      1751,
-      1753,
-      1754,
-      1755,
-      1758,
-      1763,
-      1766,
-      1769,
-      1772,
-      1773,
-      1776,
-      1780,
-      1782,
-      1784,
-      1786,
-      1787,
-      1788,
-      1789,
-      1790,
-      1793,
-      1794,
-      1801,
-      1804,
-      1805
+      1837,
+      1838,
+      1839,
+      1840,
+      1844,
+      1846,
+      1848,
+      1849,
+      1850,
+      1852,
+      1862,
+      1865,
+      1873,
+      1879,
+      1881,
+      1883,
+      1884,
+      1885,
+      1886,
+      1887,
+      1889,
+      1894,
+      1895,
+      1896,
+      1898,
+      1913,
+      1914,
+      1917,
+      1920,
+      1921,
+      1922,
+      1923,
+      1928,
+      1930,
+      1931,
+      1932
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1697,
-  "fields": {
-    "name": "AAS: Stars and Stellar Physics Store",
-    "books": [
-      1704,
-      1707,
-      1715,
-      1716,
-      1721,
-      1728,
-      1730,
-      1731,
-      1732,
-      1733,
-      1734,
-      1739,
-      1743,
-      1745,
-      1746,
-      1747,
-      1749,
-      1752,
-      1753,
-      1755,
-      1757,
-      1759,
-      1762,
-      1764,
-      1768,
-      1769,
-      1770,
-      1772,
-      1773,
-      1778,
-      1779,
-      1780,
-      1782,
-      1783,
-      1784,
-      1785,
-      1786,
-      1788,
-      1789,
-      1798,
-      1802,
-      1810
-    ]
-  }
-},
-{
-  "model": "ann_agg.store",
-  "pk": 1698,
-  "fields": {
-    "name": "AAS: Instrumentation, Software, Laboratory Astrophysics, and Data Store",
-    "books": [
-      1710,
-      1711,
-      1722,
-      1726,
-      1728,
-      1729,
-      1731,
-      1734,
-      1736,
-      1737,
-      1738,
-      1739,
-      1740,
-      1742,
-      1747,
-      1748,
-      1749,
-      1756,
-      1757,
-      1761,
-      1763,
-      1766,
-      1767,
-      1768,
-      1772,
-      1774,
-      1775,
-      1776,
-      1779,
-      1781,
-      1785,
-      1787,
-      1789,
-      1790,
-      1791,
-      1793,
-      1799,
-      1804,
-      1809
-    ]
-  }
-},
-{
-  "model": "ann_agg.store",
-  "pk": 1699,
-  "fields": {
-    "name": "AAS: Galaxies and Cosmology Store",
-    "books": [
-      1710,
-      1713,
-      1717,
-      1720,
-      1724,
-      1729,
-      1731,
-      1734,
-      1735,
-      1737,
-      1738,
-      1742,
-      1743,
-      1744,
-      1747,
-      1749,
-      1750,
-      1752,
-      1755,
-      1759,
-      1763,
-      1765,
-      1766,
-      1767,
-      1770,
-      1771,
-      1772,
-      1773,
-      1774,
-      1778,
-      1780,
-      1782,
-      1783,
-      1784,
-      1785,
-      1791,
-      1792,
-      1798,
-      1799,
-      1802,
-      1806,
-      1811,
-      1812
-    ]
-  }
-},
-{
-  "model": "ann_agg.store",
-  "pk": 1700,
-  "fields": {
-    "name": "AAS: High-energy Phenomena and Fundamental Physics Store",
-    "books": [
-      1712,
-      1715,
-      1723,
-      1724,
-      1729,
-      1732,
-      1734,
-      1735,
-      1738,
-      1741,
-      1742,
-      1744,
-      1746,
-      1748,
-      1752,
-      1753,
-      1755,
-      1757,
-      1758,
-      1761,
-      1765,
-      1766,
-      1769,
-      1770,
-      1771,
-      1772,
-      1774,
-      1775,
-      1776,
-      1777,
-      1780,
-      1782,
-      1783,
-      1784,
-      1785,
-      1786,
-      1787,
-      1789,
-      1795,
-      1803,
-      1813
-    ]
-  }
-},
-{
-  "model": "ann_agg.store",
-  "pk": 1701,
-  "fields": {
-    "name": "Particle and nuclear physics Store",
-    "books": [
-      1710,
-      1711,
-      1716,
-      1717,
-      1720,
-      1723,
-      1726,
-      1727,
-      1732,
-      1735,
-      1740,
-      1741,
-      1743,
-      1744,
-      1746,
-      1747,
-      1748,
-      1752,
-      1753,
-      1756,
-      1757,
-      1758,
-      1759,
-      1764,
-      1765,
-      1767,
-      1769,
-      1771,
-      1772,
-      1773,
-      1774,
-      1775,
-      1777,
-      1778,
-      1780,
-      1781,
-      1782,
-      1783,
-      1784,
-      1785,
-      1788,
-      1794
-    ]
-  }
-},
-{
-  "model": "ann_agg.store",
-  "pk": 1702,
+  "pk": 1709,
   "fields": {
     "name": "Education and outreach Store",
     "books": [
-      1707,
-      1719,
-      1721,
-      1726,
-      1728,
-      1730,
-      1731,
-      1734,
-      1735,
-      1736,
-      1737,
-      1740,
-      1741,
-      1744,
-      1746,
-      1747,
-      1748,
-      1749,
-      1750,
-      1752,
-      1754,
-      1761,
-      1764,
-      1766,
-      1771,
-      1777,
-      1781,
-      1782,
-      1783,
-      1786,
-      1787,
-      1789,
-      1791,
-      1795,
-      1797,
-      1800,
-      1804,
-      1806,
-      1811,
-      1812
+      1837,
+      1842,
+      1843,
+      1844,
+      1845,
+      1847,
+      1853,
+      1854,
+      1860,
+      1862,
+      1872,
+      1873,
+      1874,
+      1876,
+      1881,
+      1887,
+      1888,
+      1891,
+      1892,
+      1895,
+      1900,
+      1901,
+      1903,
+      1904,
+      1906,
+      1918,
+      1919,
+      1925,
+      1929,
+      1930,
+      1931,
+      1935,
+      1937,
+      1946,
+      1949
     ]
   }
 },
 {
   "model": "ann_agg.store",
-  "pk": 1703,
+  "pk": 1710,
+  "fields": {
+    "name": "Materials Store",
+    "books": [
+      1841,
+      1843,
+      1844,
+      1846,
+      1848,
+      1859,
+      1862,
+      1864,
+      1873,
+      1874,
+      1875,
+      1876,
+      1878,
+      1879,
+      1885,
+      1896,
+      1897,
+      1898,
+      1900,
+      1901,
+      1902,
+      1905,
+      1906,
+      1907,
+      1908,
+      1909,
+      1910,
+      1911,
+      1913,
+      1917,
+      1923,
+      1930,
+      1931,
+      1932,
+      1940
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1711,
+  "fields": {
+    "name": "Mathematics and computation Store",
+    "books": [
+      1835,
+      1844,
+      1848,
+      1849,
+      1850,
+      1852,
+      1854,
+      1857,
+      1858,
+      1859,
+      1861,
+      1863,
+      1866,
+      1868,
+      1876,
+      1877,
+      1878,
+      1883,
+      1884,
+      1902,
+      1905,
+      1907,
+      1909,
+      1910,
+      1911,
+      1913,
+      1915,
+      1916,
+      1920,
+      1921,
+      1925,
+      1926,
+      1932,
+      1933,
+      1934,
+      1939,
+      1942,
+      1951
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1712,
+  "fields": {
+    "name": "AAS: Stars and Stellar Physics Store",
+    "books": [
+      1838,
+      1839,
+      1843,
+      1844,
+      1849,
+      1860,
+      1861,
+      1866,
+      1867,
+      1871,
+      1872,
+      1874,
+      1876,
+      1877,
+      1881,
+      1883,
+      1885,
+      1887,
+      1888,
+      1889,
+      1893,
+      1895,
+      1897,
+      1898,
+      1902,
+      1906,
+      1910,
+      1911,
+      1912,
+      1916,
+      1920,
+      1928,
+      1930,
+      1933,
+      1935,
+      1939,
+      1942,
+      1944,
+      1954
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1713,
+  "fields": {
+    "name": "Plasmas Store",
+    "books": [
+      1839,
+      1840,
+      1848,
+      1849,
+      1855,
+      1856,
+      1857,
+      1861,
+      1867,
+      1870,
+      1873,
+      1879,
+      1885,
+      1890,
+      1892,
+      1897,
+      1898,
+      1902,
+      1904,
+      1906,
+      1909,
+      1911,
+      1912,
+      1914,
+      1916,
+      1920,
+      1921,
+      1923,
+      1924,
+      1925,
+      1934,
+      1938,
+      1943,
+      1948,
+      1953
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1714,
+  "fields": {
+    "name": "Astronomy and astrophysics Store",
+    "books": [
+      1835,
+      1841,
+      1842,
+      1844,
+      1845,
+      1847,
+      1849,
+      1852,
+      1853,
+      1858,
+      1861,
+      1863,
+      1870,
+      1871,
+      1876,
+      1880,
+      1887,
+      1888,
+      1891,
+      1899,
+      1900,
+      1903,
+      1906,
+      1909,
+      1910,
+      1914,
+      1915,
+      1916,
+      1917,
+      1925,
+      1926,
+      1928,
+      1932,
+      1937,
+      1939,
+      1942,
+      1944,
+      1953,
+      1954
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1715,
+  "fields": {
+    "name": "Optics and photonics Store",
+    "books": [
+      1837,
+      1840,
+      1841,
+      1844,
+      1850,
+      1853,
+      1854,
+      1859,
+      1860,
+      1866,
+      1872,
+      1876,
+      1878,
+      1885,
+      1886,
+      1888,
+      1889,
+      1891,
+      1892,
+      1895,
+      1897,
+      1901,
+      1905,
+      1907,
+      1908,
+      1910,
+      1911,
+      1913,
+      1919,
+      1922,
+      1923,
+      1934,
+      1935,
+      1936,
+      1938,
+      1943,
+      1944
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1716,
+  "fields": {
+    "name": "Environment and energy Store",
+    "books": [
+      1836,
+      1838,
+      1841,
+      1851,
+      1853,
+      1854,
+      1855,
+      1856,
+      1858,
+      1859,
+      1861,
+      1862,
+      1866,
+      1867,
+      1872,
+      1877,
+      1879,
+      1880,
+      1884,
+      1891,
+      1895,
+      1897,
+      1903,
+      1905,
+      1909,
+      1910,
+      1920,
+      1922,
+      1924,
+      1928,
+      1929,
+      1932,
+      1946,
+      1947,
+      1948,
+      1953,
+      1954
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1717,
+  "fields": {
+    "name": "Culture, history and society Store",
+    "books": [
+      1842,
+      1848,
+      1850,
+      1852,
+      1856,
+      1858,
+      1861,
+      1872,
+      1873,
+      1874,
+      1875,
+      1879,
+      1880,
+      1881,
+      1882,
+      1883,
+      1884,
+      1885,
+      1886,
+      1889,
+      1894,
+      1897,
+      1900,
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1909,
+      1911,
+      1916,
+      1917,
+      1918,
+      1919,
+      1923,
+      1930,
+      1931,
+      1935,
+      1947
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1718,
+  "fields": {
+    "name": "Condensed matter Store",
+    "books": [
+      1835,
+      1844,
+      1851,
+      1852,
+      1855,
+      1856,
+      1857,
+      1858,
+      1860,
+      1862,
+      1865,
+      1883,
+      1884,
+      1886,
+      1887,
+      1889,
+      1891,
+      1893,
+      1894,
+      1899,
+      1902,
+      1905,
+      1906,
+      1908,
+      1910,
+      1916,
+      1917,
+      1918,
+      1919,
+      1921,
+      1923,
+      1927,
+      1928,
+      1930,
+      1933,
+      1941,
+      1949,
+      1952
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1719,
   "fields": {
     "name": "AAS: The Solar System, Exoplanets, and Astrobiology Store",
     "books": [
-      1706,
-      1708,
-      1709,
-      1711,
-      1719,
-      1721,
-      1725,
-      1727,
-      1729,
-      1732,
-      1738,
-      1741,
-      1744,
-      1745,
-      1753,
-      1754,
-      1756,
-      1761,
-      1762,
-      1764,
-      1765,
-      1766,
-      1768,
-      1770,
-      1774,
-      1779,
-      1780,
-      1781,
-      1786,
-      1790,
-      1791,
-      1792,
-      1794,
-      1799,
-      1801,
-      1803,
-      1804
+      1837,
+      1845,
+      1848,
+      1853,
+      1855,
+      1857,
+      1859,
+      1860,
+      1861,
+      1862,
+      1863,
+      1866,
+      1867,
+      1868,
+      1869,
+      1870,
+      1872,
+      1878,
+      1884,
+      1885,
+      1887,
+      1891,
+      1892,
+      1895,
+      1896,
+      1904,
+      1914,
+      1916,
+      1918,
+      1919,
+      1920,
+      1926,
+      1929,
+      1930,
+      1934,
+      1942,
+      1951,
+      1953
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1720,
+  "fields": {
+    "name": "Classical physics Store",
+    "books": [
+      1840,
+      1843,
+      1844,
+      1845,
+      1846,
+      1847,
+      1851,
+      1856,
+      1858,
+      1859,
+      1860,
+      1862,
+      1864,
+      1868,
+      1874,
+      1875,
+      1877,
+      1882,
+      1888,
+      1895,
+      1897,
+      1901,
+      1909,
+      1910,
+      1911,
+      1912,
+      1913,
+      1916,
+      1918,
+      1919,
+      1921,
+      1923,
+      1925,
+      1927,
+      1932,
+      1934,
+      1946
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1721,
+  "fields": {
+    "name": "Atomic and molecular physics Store",
+    "books": [
+      1836,
+      1842,
+      1854,
+      1857,
+      1861,
+      1862,
+      1864,
+      1865,
+      1866,
+      1868,
+      1871,
+      1872,
+      1875,
+      1888,
+      1893,
+      1898,
+      1900,
+      1903,
+      1904,
+      1907,
+      1909,
+      1910,
+      1912,
+      1915,
+      1916,
+      1918,
+      1919,
+      1920,
+      1921,
+      1923,
+      1925,
+      1927,
+      1929,
+      1930,
+      1933,
+      1934,
+      1937,
+      1939
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1722,
+  "fields": {
+    "name": "AAS: Interstellar Matter and the Local Universe Store",
+    "books": [
+      1840,
+      1841,
+      1842,
+      1847,
+      1849,
+      1851,
+      1855,
+      1856,
+      1858,
+      1859,
+      1860,
+      1863,
+      1864,
+      1866,
+      1868,
+      1872,
+      1873,
+      1875,
+      1876,
+      1877,
+      1885,
+      1889,
+      1890,
+      1892,
+      1897,
+      1901,
+      1903,
+      1906,
+      1907,
+      1914,
+      1919,
+      1922,
+      1924,
+      1928,
+      1931,
+      1934,
+      1945,
+      1950
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1723,
+  "fields": {
+    "name": "Particle and nuclear physics Store",
+    "books": [
+      1838,
+      1843,
+      1845,
+      1856,
+      1857,
+      1858,
+      1861,
+      1864,
+      1865,
+      1867,
+      1870,
+      1872,
+      1875,
+      1879,
+      1880,
+      1881,
+      1886,
+      1887,
+      1889,
+      1891,
+      1902,
+      1904,
+      1908,
+      1909,
+      1913,
+      1917,
+      1920,
+      1928,
+      1930,
+      1932,
+      1933,
+      1934,
+      1935,
+      1943
+    ]
+  }
+},
+{
+  "model": "ann_agg.store",
+  "pk": 1724,
+  "fields": {
+    "name": "AAS: Galaxies and Cosmology Store",
+    "books": [
+      1843,
+      1849,
+      1852,
+      1856,
+      1858,
+      1859,
+      1860,
+      1861,
+      1862,
+      1864,
+      1866,
+      1869,
+      1871,
+      1877,
+      1884,
+      1887,
+      1893,
+      1894,
+      1895,
+      1897,
+      1899,
+      1900,
+      1905,
+      1906,
+      1910,
+      1911,
+      1915,
+      1916,
+      1921,
+      1923,
+      1928,
+      1932,
+      1938,
+      1947,
+      1948,
+      1953
     ]
   }
 }
