@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author</title>
+</head>
+<body leftmargin="30">
+    <h2>All authors details</h2>
+    <table>
+        {% for item in authors %}
+        <tr>
+            <td><b>ID:</b>{{ item.id }}</td>
+            <td><b>Name:</b>{{ item.name }}</td>
+            <td><b>Age:</b> {{ item.age }}</td>
+            <td><b>Number of books:</b> {{ 5 }}</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="divider"><hr/></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

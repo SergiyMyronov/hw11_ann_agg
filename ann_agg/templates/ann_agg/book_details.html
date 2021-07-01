@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book details</title>
+</head>
+<body leftmargin="30">
+    <h2>Book details</h2>
+    <table>
+        <tr>
+            <td><b>Name:</b> {{ bk.name }}</td>
+        </tr>
+        <tr>
+            <td><b>Pages:</b> {{ bk.pages }}</td>
+        </tr>
+        <tr>
+            <td><b>Price:</b> {{ bk.price }}</td>
+        </tr>
+        <tr>
+            <td><b>Rating:</b> {{ bk.rating }}</td>
+        </tr>
+        <tr>
+            <td><b>Publisher:</b> {{ bk.publisher.name }}</td>
+        </tr>
+        <tr>
+            <td><b>Date of publication:</b> {{ bk.pubdate }}</td>
+        </tr>
+    </table>
+</body>
+</html>

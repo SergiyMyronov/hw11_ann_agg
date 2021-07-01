@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+</head>
+<body leftmargin="30">
+    <h2>All books details</h2>
+    <table>
+        {% for item in books %}
+        <tr>
+            <td><a href="{% url 'book_details' item.id %}"> {{ item.name }}</a></td>
+            <td><b>Pages:</b> {{ item.pages }}</td>
+            <td><b>Price:</b> {{ item.price }}</td>
+            <td><b>Rating:</b> {{ item.rating }}</td>
+            <td><b>Publisher:</b> {{ item.publisher.name }}</td>
+            <td><b>Date of publication:</b> {{ item.pubdate }}</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="divider"><hr/></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

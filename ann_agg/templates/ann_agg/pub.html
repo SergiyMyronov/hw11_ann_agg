@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publisher</title>
+</head>
+<body leftmargin="30">
+    <h2>All publishers details</h2>
+    <table>
+        {% for item in pubs %}
+        <tr>
+            <td><b>ID:</b>{{ item.id }}</td>
+            <td><b>Name:</b>{{ item.name }}</td>
+            <td><b>Number of books:</b> {{ 5 }}</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="divider"><hr/></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
