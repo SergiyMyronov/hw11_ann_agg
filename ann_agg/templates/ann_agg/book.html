@@ -9,6 +9,7 @@
     <table>
         {% for item in books %}
         <tr>
+            <td><b>ID:</b>{{ item.id }}</td>
             <td><a href="{% url 'book_details' item.id %}"> {{ item.name }}</a></td>
             <td><b>Pages:</b> {{ item.pages }}</td>
             <td><b>Price:</b> {{ item.price }}</td>

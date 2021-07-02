@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store details</title>
+</head>
+<body leftmargin="30">
+    <h2>Store details</h2>
+    <table>
+        <tr>
+            <td><b>Name:</b> {{ bk.name }}</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="divider"><hr/></td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'store' %}"> << Back to the list of stores >> </a></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -10,7 +10,7 @@
         {% for item in authors %}
         <tr>
             <td><b>ID:</b>{{ item.id }}</td>
-            <td><b>Name:</b>{{ item.name }}</td>
+            <td><a href="{% url 'author_details' item.id %}"> {{ item.name }}</a></td>
             <td><b>Age:</b> {{ item.age }}</td>
             <td><b>Number of books:</b> {{ 5 }}</td>
         </tr>

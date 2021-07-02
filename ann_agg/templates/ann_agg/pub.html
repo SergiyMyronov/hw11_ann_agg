@@ -10,7 +10,7 @@
         {% for item in pubs %}
         <tr>
             <td><b>ID:</b>{{ item.id }}</td>
-            <td><b>Name:</b>{{ item.name }}</td>
+            <td><a href="{% url 'pub_details' item.id %}"> {{ item.name }}</a></td>
             <td><b>Number of books:</b> {{ 5 }}</td>
         </tr>
         <tr>

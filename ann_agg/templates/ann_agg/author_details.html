@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author details</title>
+</head>
+<body leftmargin="30">
+    <h2>Author details</h2>
+    <table>
+        <tr>
+            <td><b>Name:</b> {{ bk.name }}</td>
+        </tr>
+        <tr>
+            <td><b>Age:</b> {{ bk.age }}</td>
+        </tr>
+        <tr>
+            <td colspan="1" class="divider"><hr/></td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'author' %}"> << Back to the list of authors >> </a></td>
+        </tr>
+    </table>
+</body>
+</html>
