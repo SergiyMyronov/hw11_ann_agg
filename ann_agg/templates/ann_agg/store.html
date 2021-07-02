@@ -11,7 +11,7 @@
         <tr>
             <td><b>ID:</b>{{ item.id }}</td>
             <td><a href="{% url 'store_details' item.id %}"> {{ item.name }}</a></td>
-            <td><b>Number of books:</b> {{ 5 }}</td>
+            <td><b>Number of books:</b> {{ item.cnt }}</td>
         </tr>
         <tr>
             <td colspan="3" class="divider"><hr/></td>

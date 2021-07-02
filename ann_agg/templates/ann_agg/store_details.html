@@ -5,13 +5,22 @@
     <title>Store details</title>
 </head>
 <body leftmargin="30">
-    <h2>Store details</h2>
+    <h2>{{ bk.name }}</h2>
+    <h3>Expensive books (>100)</h3>
     <table>
+        {% if books %}
+            {% for item in books %}
+            <tr>
+                <td><b>ID:</b>{{ item.id }}</td>
+                <td><a href="{% url 'book_details' item.id %}"> {{ item.name }}</a></td>
+                <td><b>Price:</b> {{ item.price }}</td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <td> There are no expensive books in the Store </td>
+        {% endif %}
         <tr>
-            <td><b>Name:</b> {{ bk.name }}</td>
-        </tr>
-        <tr>
-            <td colspan="1" class="divider"><hr/></td>
+            <td colspan="3" class="divider"><hr/></td>
         </tr>
         <tr>
             <td><a href="{% url 'store' %}"> << Back to the list of stores >> </a></td>

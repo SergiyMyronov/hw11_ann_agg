@@ -14,6 +14,18 @@
             <td><b>Age:</b> {{ bk.age }}</td>
         </tr>
         <tr>
+            <td><b>Books:</b> </td>
+        </tr>
+        {% if bk_aut %}
+            {% for item in bk_aut %}
+            <tr>
+                <td><a href="{% url 'book_details' item.id %}"> {{ item.name }}</a></td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <td> << No books >> </td>
+        {% endif %}
+        <tr>
             <td colspan="1" class="divider"><hr/></td>
         </tr>
         <tr>
